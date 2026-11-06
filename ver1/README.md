@@ -4,11 +4,11 @@
 
 **Journal:** Artificial Intelligence in Agriculture
 
-**Authors:** Nguyen Huynh Truong Gia, Nguyen Duc Khuyen, Vo Van Qui, Tran Quoc Khanh, Tran Thi Kim Nga
+**Authors:** Tran Van Thanh, Nguyen Duc Khuyen, Vo Van Qui, Tran Quoc Khanh, Nguyen Huynh Truong Gia
 
 **Affiliation:** Faculty of Mechanical Engineering – Technology, Nong Lam University, Ho Chi Minh City, Vietnam
 
-**Corresponding author: ttknga@hcmuaf.edu.vn**
+**Corresponding author: Nguyen Huynh Truong Gia**
 
 Packaged 2026-11-04.
 
