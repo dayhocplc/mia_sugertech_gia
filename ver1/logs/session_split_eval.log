@@ -1,0 +1,24 @@
+/home/thanhtran/Gia-mia/mia/rae/envs/rae/lib/python3.10/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3526.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+[rae] ctl09     faster_rcnn  recall=0.430 precision=0.458 F1=0.444 AP50=47.5
+[rae] ctl09     retinanet    recall=0.431 precision=0.427 F1=0.429 AP50=49.0
+[rae] ctl09     yolov10      recall=0.305 precision=0.555 F1=0.394 AP50=43.3
+[rae] ctl10     faster_rcnn  recall=0.410 precision=0.463 F1=0.435 AP50=45.7
+[rae] ctl10     retinanet    recall=0.418 precision=0.403 F1=0.410 AP50=48.0
+[rae] ctl10     yolov10      recall=0.270 precision=0.549 F1=0.362 AP50=39.3
+[rae] ctl13     faster_rcnn  recall=0.429 precision=0.477 F1=0.452 AP50=47.1
+[rae] ctl13     retinanet    recall=0.425 precision=0.433 F1=0.429 AP50=48.6
+[rae] ctl13     yolov10      recall=0.318 precision=0.554 F1=0.404 AP50=43.9
+[rae] hold09    faster_rcnn  recall=0.218 precision=0.436 F1=0.291 AP50=23.1
+[rae] hold09    retinanet    recall=0.213 precision=0.422 F1=0.283 AP50=25.8
+[rae] hold09    yolov10      recall=0.180 precision=0.479 F1=0.262 AP50=22.5
+[rae] hold10    faster_rcnn  recall=0.473 precision=0.355 F1=0.406 AP50=47.6
+[rae] hold10    retinanet    recall=0.459 precision=0.313 F1=0.372 AP50=48.3
+[rae] hold10    yolov10      recall=0.331 precision=0.483 F1=0.393 AP50=41.4
+[rae] hold13    faster_rcnn  recall=0.194 precision=0.402 F1=0.262 AP50=35.9
+[rae] hold13    retinanet    recall=0.198 precision=0.348 F1=0.252 AP50=38.6
+[rae] hold13    yolov10      recall=0.118 precision=0.533 F1=0.193 AP50=31.4
+[rae] → /home/thanhtran/Gia-mia/mia/rae/results/session_split.json
+[rae] faster_rcnn    3/3 cặp · hiệu trung bình recall -0.128 F1 -0.124 AP50 -11.2
+[rae] retinanet      3/3 cặp · hiệu trung bình recall -0.135 F1 -0.120 AP50 -11.0
+[rae] yolov10        3/3 cặp · hiệu trung bình recall -0.088 F1 -0.104 AP50 -10.4

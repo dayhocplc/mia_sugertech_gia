@@ -1,0 +1,283 @@
+
+=== 1/8 chấm mọi checkpoint seed trên tập test ===
+[rae] → /home/thanhtran/Gia-mia/mia/rae/results/seed_variance.json
+
+mô hình         lượt    AP50 trung bình ± sd          khoảng
+Faster R-CNN       5            53.60 ± 1.42    51.9–55.3  
+RetinaNet          4            57.05 ± 0.15    56.9–57.2    (3 lượt phân kỳ)
+YOLOv10            5            52.32 ± 3.73    49.2–56.5  
+
+Phân rã phương sai AP50 (điểm phần trăm):
+  Faster R-CNN  tập test 1.77 | huấn luyện 1.42 | gộp 2.27
+  RetinaNet     tập test 1.62 | huấn luyện 0.15 | gộp 1.62
+  YOLOv10       tập test 1.89 | huấn luyện 3.73 | gộp 4.18
+
+=== 2/8 bootstrap ghép cặp ===
+[rae] 124 ảnh test dùng chung cho cả ba mô hình
+[rae] bootstrap 1000 lần cho chỉ số ma trận nhầm lẫn…
+[rae] bootstrap 1000 lần cho AP50 (chậm hơn)…
+[rae]   AP50 50/1000
+[rae]   AP50 100/1000
+[rae]   AP50 150/1000
+[rae]   AP50 200/1000
+[rae]   AP50 250/1000
+[rae]   AP50 300/1000
+[rae]   AP50 350/1000
+[rae]   AP50 400/1000
+[rae]   AP50 450/1000
+[rae]   AP50 500/1000
+[rae]   AP50 550/1000
+[rae]   AP50 600/1000
+[rae]   AP50 650/1000
+[rae]   AP50 700/1000
+[rae]   AP50 750/1000
+[rae]   AP50 800/1000
+[rae]   AP50 850/1000
+[rae]   AP50 900/1000
+[rae]   AP50 950/1000
+[rae]   AP50 1000/1000
+[rae] → /home/thanhtran/Gia-mia/mia/rae/results/bootstrap.json
+
+mô hình                     F1 [KTC 95%]            AP50 [KTC 95%]
+Faster R-CNN        0.973 [0.957, 0.986]         53.1 [49.9, 56.8]
+RetinaNet           0.965 [0.952, 0.977]         56.9 [53.8, 60.1]
+YOLOv10             0.975 [0.961, 0.986]         49.7 [46.4, 53.8]
+
+Hiệu số ghép cặp (KTC 95% không chứa 0 ⇒ khác biệt có ý nghĩa):
+  Faster R-CNN  − RetinaNet     f1      +0.008  [-0.009, +0.022]  không
+  Faster R-CNN  − RetinaNet     ap50    -3.780  [-6.258, -1.307]  CÓ Ý NGHĨA
+  Faster R-CNN  − YOLOv10       f1      -0.002  [-0.016, +0.011]  không
+  Faster R-CNN  − YOLOv10       ap50    +3.410  [+0.178, +6.347]  CÓ Ý NGHĨA
+  RetinaNet     − YOLOv10       f1      -0.010  [-0.023, +0.005]  không
+  RetinaNet     − YOLOv10       ap50    +7.190  [+4.332, +9.557]  CÓ Ý NGHĨA
+
+=== 3/8 hình (tiếng Anh, đúng phạm vi) ===
+[rae] fig1_workflow → figures/fig1_workflow.pdf, .png
+[rae] fig4_training → figures/fig4_training.pdf, .png
+[rae] fig6_confusion → figures/fig6_confusion.pdf, .png
+[rae] fig7_metrics → figures/fig7_metrics.pdf, .png
+/home/thanhtran/Gia-mia/mia/rae/envs/rae/lib/python3.10/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3526.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+[rae] fig5_qualitative → figures/fig5_qualitative.pdf, .png
+
+=== 4/8 bảng và báo cáo ===
+[rae] table1_training_config → tables/table1_training_config.csv, tables/table1_training_config.md
+[rae] table2_detection_quality → tables/table2_detection_quality.csv, tables/table2_detection_quality.md
+[rae] table3_class_discrimination → tables/table3_class_discrimination.csv, tables/table3_class_discrimination.md
+[rae] table4_throughput → tables/table4_throughput.csv, tables/table4_throughput.md
+[rae] table5_polygon_models → tables/table5_polygon_models.csv, tables/table5_polygon_models.md
+[rae] table2_per_class → tables/table2_per_class.csv, tables/table2_per_class.md
+[rae] table3_overall → tables/table3_overall.csv, tables/table3_overall.md
+[rae] đối chiếu → tables/check_vs_manuscript.md
+[rae] báo cáo → BAO_CAO_KET_QUA.md
+
+=== 5/8 bản thảo, thư, đồ thị tri thức ===
+[rae] kiểm tra bảng: 5 bảng, đánh số liên tục 1–5
+[rae] 6824 từ → /home/thanhtran/Gia-mia/mia/rae/manuscript/RAE_manuscript.md
+[rae] → /home/thanhtran/Gia-mia/mia/rae/manuscript/RAE_manuscript.docx
+[rae] 867 từ → /home/thanhtran/Gia-mia/mia/rae/manuscript/RAE_cover_letter.md
+[rae] → /home/thanhtran/Gia-mia/mia/rae/manuscript/RAE_cover_letter.docx
+[rae] → /home/thanhtran/Gia-mia/mia/rae/KNOWLEDGE_GRAPH.md
+
+=== 6/8 ba tầng kiểm ===
+Kiểm tra metrics.py
+  ✓ IoU trùng khít = 1
+  ✓ IoU chồng một nửa = 1/3
+  ✓ IoU rời nhau = 0
+  ✓ đoán đúng hết: không có ô ngoài đường chéo
+  ✓ đoán đúng hết: F1 = 1 cả hai lớp
+  ✓ ma trận khớp tính tay
+  ✓ bỏ background: Precision mía = 0,5
+  ✓ bỏ background: Recall mía = 1,0
+  ✓ bỏ background: Precision cỏ = 1,0
+  ✓ bỏ background: Recall cỏ = 0,5
+  ✓ bỏ background: Accuracy = 2/3
+  ✓ giữ background: Recall mía = 0,5
+  ✓ giữ background: Precision cỏ = 0,5
+  ✓ dự đoán thừa thành báo nhầm trên nền
+  ✓ dự đoán dưới ngưỡng conf bị bỏ → thành bỏ sót
+Kiểm tra dữ liệu
+  ✓ cắt hash Roboflow đúng
+  ✓ category id ánh xạ về {0, 1}
+  ✓ tên lớp đúng thứ tự
+  ✓ lớp gộp giữ chỗ (id 0 của Roboflow) đã bị bỏ
+  ✓ không mất đối tượng nào khi ánh xạ
+  ✓ số hộp khớp (IMG_20250320_131807_jpg.)
+  ✓ số hộp khớp (IMG_20250320_100911_jpg.)
+  ✓ số hộp khớp (IMG_20250320_104352_TIME)
+  ✓ số hộp khớp (IMG_20250320_132109_jpg.)
+  ✓ số hộp khớp (IMG_20250320_100935_jpg.)
+  ✓ số hộp khớp (IMG_20250320_092202_jpg.)
+  ✓ số hộp khớp (IMG_20250320_100114_jpg.)
+  ✓ số hộp khớp (IMG_20250320_134400_jpg.)
+  ✓ số hộp khớp (IMG_20250320_101347_jpg.)
+  ✓ số hộp khớp (IMG_20250320_101229_jpg.)
+  ✓ số hộp khớp (IMG_20250320_100916_jpg.)
+  ✓ số hộp khớp (IMG_20250320_132242_jpg.)
+  ✓ số hộp khớp (IMG_20250320_104352_TIME)
+  ✓ số hộp khớp (IMG_20250320_131803_jpg.)
+  ✓ số hộp khớp (IMG_20250320_100557_jpg.)
+  ✓ số hộp khớp (IMG_20250320_101219_jpg.)
+  ✓ số hộp khớp (IMG_20250320_100837_jpg.)
+  ✓ số hộp khớp (IMG_20250320_103239_jpg.)
+  ✓ số hộp khớp (IMG_20250320_132122_jpg.)
+  ✓ số hộp khớp (IMG_20250320_132153_1_jp)
+  ✓ sai số dựng lại hộp < 1 px (lớn nhất 0.000)
+
+Tất cả đều đạt.
+RÀ SOÁT ĐỘC LẬP — tính lại từ dữ liệu gốc
+
+A1 — bộ dữ liệu
+  ✓ bbox: không rò rỉ train↔valid/test
+  ✓ bbox: tỷ lệ ảnh gốc 80:10:10
+  ✓ bbox: train nhân đúng ×3 (964→2892)
+  ✓ bbox: valid/test KHÔNG tăng cường
+  ✓ bbox: test có 425 mía / 894 cỏ (tỷ lệ cỏ:mía = 2.1)
+  ✓ polygon: không rò rỉ train↔valid/test
+  ✓ polygon: tỷ lệ ảnh gốc 80:10:10
+  ✓ polygon: train nhân đúng ×3 (404→1212)
+  ✓ polygon: valid/test KHÔNG tăng cường
+  ✓ polygon: test có 396 mía / 1071 cỏ (tỷ lệ cỏ:mía = 2.7)
+
+A2 — ma trận nhầm lẫn tính lại
+  ✓ Faster R-CNN: hàng 'sugarcane' cộng đúng 425 = số nhãn thật
+  ✓ Faster R-CNN: hàng 'weed' cộng đúng 894 = số nhãn thật
+  ✓ Faster R-CNN: recall cỏ tính lại khớp (0.471)
+  ✓ RetinaNet: hàng 'sugarcane' cộng đúng 425 = số nhãn thật
+  ✓ RetinaNet: hàng 'weed' cộng đúng 894 = số nhãn thật
+  ✓ RetinaNet: recall cỏ tính lại khớp (0.492)
+  ✓ YOLOv10: hàng 'sugarcane' cộng đúng 425 = số nhãn thật
+  ✓ YOLOv10: hàng 'weed' cộng đúng 894 = số nhãn thật
+  ✓ YOLOv10: recall cỏ tính lại khớp (0.385)
+
+A3 — AP50 so với trần recall
+  ✓ Faster R-CNN: AP50 53.1 ≤ trần recall 60.0 (hợp lý)
+  ✓ RetinaNet: AP50 56.9 ≤ trần recall 60.4 (hợp lý)
+  ✓ YOLOv10: AP50 49.7 ≤ trần recall 52.3 (hợp lý)
+
+A4 — huấn luyện
+  ✓ faster_rcnn: chạy hết 9049/9050 iter
+  ✓ faster_rcnn_seed1: chạy hết 9049/9050 iter
+  ✓ faster_rcnn_seed2: chạy hết 9049/9050 iter
+  ✓ faster_rcnn_seed4: chạy hết 9049/9050 iter
+  ✓ faster_rcnn_seed5: chạy hết 9049/9050 iter
+  ✓ retinanet: chạy hết 9049/9050 iter
+  ✓ retinanet_seed1: chạy hết 9049/9050 iter
+  ✓ retinanet_seed2: dừng ở iter 245/9050 — PHÂN KỲ đã ghi nhận (diverged_nan), loại khỏi phân tích và thay bằng seed khác
+  ✓ retinanet_seed3: chạy hết 9049/9050 iter
+  ✓ retinanet_seed4: chạy hết 9049/9050 iter
+  ✓ retinanet_seed5: dừng ở iter 255/9050 — PHÂN KỲ đã ghi nhận (diverged_nan), loại khỏi phân tích và thay bằng seed khác
+  ✓ retinanet_seed6: dừng ở iter 232/9050 — PHÂN KỲ đã ghi nhận (diverged_nan), loại khỏi phân tích và thay bằng seed khác
+  ✓ yolov10: đủ 50 epoch
+  ✓ yolov10_seed1: đủ 50 epoch
+  ✓ yolov10_seed2: đủ 50 epoch
+  ✓ yolov10_seed4: đủ 50 epoch
+  ✓ yolov10_seed5: đủ 50 epoch
+
+A5 — seed có thật sự khác nhau
+  ✓ Faster R-CNN: 5 lượt khác nhau, AP50 51.9–55.3
+  ✓ RetinaNet: 4 lượt khác nhau, AP50 56.9–57.2
+  ✓ YOLOv10: 5 lượt khác nhau, AP50 49.2–56.5
+
+A6 — chi phí tính toán so với tài liệu
+  ✓ Faster R-CNN: 41.3 M tham số, khớp R50-FPN ~41,5 M
+  ✓ RetinaNet: 36.3 M tham số, khớp R50-FPN ~37,9 M
+  ✓ YOLOv10: 8.1 M tham số, khớp YOLOv10-S ~8,0 M
+
+A7 — tốc độ
+  ✓ Faster R-CNN: 43.7 ms ↔ 22.9 FPS nhất quán (10×40 ảnh)
+  ✓ RetinaNet: 42.2 ms ↔ 23.7 FPS nhất quán (10×40 ảnh)
+  ✓ YOLOv10: 4.7 ms ↔ 212.0 FPS nhất quán (10×40 ảnh)
+
+A8 — bootstrap
+  ✓ Faster R-CNN f1: 0.973 trong [0.957, 0.986]
+  ✓ Faster R-CNN ap50: 53.118 trong [49.890, 56.809]
+  ✓ Faster R-CNN accuracy: 0.973 trong [0.958, 0.986]
+  ✓ RetinaNet f1: 0.965 trong [0.952, 0.977]
+  ✓ RetinaNet ap50: 56.898 trong [53.792, 60.124]
+  ✓ RetinaNet accuracy: 0.966 trong [0.954, 0.977]
+  ✓ YOLOv10 f1: 0.975 trong [0.961, 0.986]
+  ✓ YOLOv10 ap50: 49.708 trong [46.439, 53.833]
+  ✓ YOLOv10 accuracy: 0.975 trong [0.962, 0.987]
+
+A9 — ba mô hình có chấm trên cùng tập test không
+  ✓ cả 3 mô hình chấm trên đúng 124 ảnh giống nhau
+
+A10 — số trong bản thảo so với results/
+  ✓ Faster R-CNN ap50 = 53.60 có trong bài
+  ✓ Faster R-CNN weed_recall_full = 0.480 có trong bài
+  ✓ RetinaNet ap50 = 57.05 có trong bài
+  ✓ RetinaNet weed_recall_full = 0.501 có trong bài
+  ✓ YOLOv10 ap50 = 52.32 có trong bài
+  ✓ YOLOv10 weed_recall_full = 0.396 có trong bài
+
+==============================================================
+HỎNG: 0   CẢNH BÁO: 0
+Kiểm tra: manuscript/RAE_manuscript.docx
+
+C1+C2 — AP50 trong bài so với số đo
+  ✓ Faster R-CNN: AP50 53.6 nhất quán, khớp số đo
+  ✓ RetinaNet: AP50 57.0 nhất quán, khớp số đo
+  ✓ YOLOv10: AP50 52.3 nhất quán, khớp số đo
+
+C1b — chỉ số tỷ lệ (weed recall) trong bài
+  ✓ Faster R-CNN: weed recall 0.48 khớp số đo
+  ✓ RetinaNet: weed recall 0.501 khớp số đo
+  ✓ YOLOv10: weed recall 0.396 khớp số đo
+
+C3 — tham chiếu 'Table N' so với cấu trúc bảng thật
+  ✓ tìm thấy 5 bảng số liệu
+  ✓ chữ viện dẫn Table [1, 2, 3, 4, 5]
+  ✓ mọi Table được viện dẫn đều tồn tại (5 bảng)
+  ✓ mọi Table được viện dẫn đều có chú thích
+  ✓ Table 2: cột khớp lời hứa trong chữ (6 cột)
+  ✓ Table 3: cột khớp lời hứa trong chữ (7 cột)
+
+C7 — chú thích bảng so với số hàng
+  ✓ Table 1: chú thích khớp 8 hàng
+  ✓ Table 2: chú thích khớp 3 hàng
+  ✓ Table 3: chú thích khớp 3 hàng
+  ✓ Table 2: chú thích khớp 3 hàng
+  ✓ Table 4: chú thích khớp 3 hàng
+  ✓ Table 5: chú thích khớp 2 hàng
+
+C8 — hình: chú thích và viện dẫn
+  ✓ 4 hình, đều có chú thích và được viện dẫn
+
+C9 — ảnh có thật trong file
+  ✓ 4 ảnh nhúng cho 4 hình
+
+C10 — thứ tự đánh số hình
+  ✓ 4 hình, đánh số liên tục theo thứ tự xuất hiện
+
+C4 — ô giữ chỗ còn sót
+  ✓ không còn ô giữ chỗ
+
+C5 — cặp phát biểu mâu thuẫn
+  ✓ không thấy cặp mâu thuẫn nào trong danh sách kiểm
+
+C6 — độ dài Abstract
+  ⚠ Abstract 220 từ — chưa biết giới hạn của tạp chí, nhóm tác giả cần kiểm
+
+============================================================
+LỖI: 0   CẢNH BÁO: 1
+
+=== 7/8 render PDF ===
+  Pages:           18
+  ảnh nhúng: 4
+
+=== 8/8 đóng gói ===
+[rae] đang gom file…
+[rae] đang nén…
+[rae] /home/thanhtran/Gia-mia/mia/rae/RAE_weed_sugarcane_supplementary.zip  (56.1 MB)
+    code                   28
+    annotations            6
+    results                28
+    tables                 15
+    figures                10
+    logs                   24
+    run_logs               55
+    images_checksummed     4451
+    images_included        0
+
+XONG — tài liệu ở /home/thanhtran/Downloads/

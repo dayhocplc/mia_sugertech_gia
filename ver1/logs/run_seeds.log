@@ -1,0 +1,20 @@
+=== faster_rcnn seed 1 ===
+[09/24 16:34:55 d2.evaluation.testing]: copypaste: AP,AP50,AP75,APs,APm,APl
+[09/24 16:34:55 d2.evaluation.testing]: copypaste: 27.0274,53.8372,24.6727,0.0000,7.7174,28.6589
+[rae] xong → /home/thanhtran/Gia-mia/mia/rae/runs/faster_rcnn_seed1/model_final.pth
+=== retinanet seed 1 ===
+[09/24 18:07:39 d2.evaluation.testing]: copypaste: AP,AP50,AP75,APs,APm,APl
+[09/24 18:07:39 d2.evaluation.testing]: copypaste: 28.5973,55.4919,24.5794,7.5477,3.5191,30.2428
+[rae] xong → /home/thanhtran/Gia-mia/mia/rae/runs/retinanet_seed1/model_final.pth
+=== yolov10 seed 1 ===
+Speed: 0.1ms preprocess, 2.3ms inference, 0.0ms loss, 0.1ms postprocess per image
+Results saved to [1m/home/thanhtran/Gia-mia/mia/rae/runs/yolov10_seed1[0m
+[rae] xong → /home/thanhtran/Gia-mia/mia/rae/runs/yolov10/weights/best.pt
+=== faster_rcnn seed 2 ===
+[09/24 20:14:22 d2.evaluation.testing]: copypaste: AP,AP50,AP75,APs,APm,APl
+[09/24 20:14:22 d2.evaluation.testing]: copypaste: 27.2923,53.6950,23.7732,0.0000,4.4937,29.0638
+[rae] xong → /home/thanhtran/Gia-mia/mia/rae/runs/faster_rcnn_seed2/model_final.pth
+=== retinanet seed 2 ===
+    raise FloatingPointError(
+FloatingPointError: Loss became infinite or NaN at iteration=245!
+loss_dict = {'loss_cls': nan, 'loss_box_reg': 1.1261134147644043}

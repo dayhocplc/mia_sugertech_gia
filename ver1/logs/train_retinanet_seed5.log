@@ -1,0 +1,386 @@
+/home/thanhtran/Gia-mia/mia/rae/envs/rae/lib/python3.10/site-packages/detectron2/model_zoo/model_zoo.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Loading config /home/thanhtran/Gia-mia/mia/rae/envs/rae/lib/python3.10/site-packages/detectron2/model_zoo/configs/COCO-Detection/../Base-RetinaNet.yaml with yaml.unsafe_load. Your machine may be at risk if the file contains malicious content.
+[rae] retinanet: 9050 iter = 50 epoch × 181 iter, micro-batch 2 × tích luỹ 8 = batch hiệu dụng 16
+[09/26 20:19:55 d2.engine.defaults]: Model:
+RetinaNet(
+  (backbone): FPN(
+    (fpn_lateral3): Conv2d(512, 256, kernel_size=(1, 1), stride=(1, 1))
+    (fpn_output3): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (fpn_lateral4): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1))
+    (fpn_output4): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (fpn_lateral5): Conv2d(2048, 256, kernel_size=(1, 1), stride=(1, 1))
+    (fpn_output5): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (top_block): LastLevelP6P7(
+      (p6): Conv2d(2048, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+      (p7): Conv2d(256, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+    )
+    (bottom_up): ResNet(
+      (stem): BasicStem(
+        (conv1): Conv2d(
+          3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False
+          (norm): FrozenBatchNorm2d(num_features=64, eps=1e-05)
+        )
+      )
+      (res2): Sequential(
+        (0): BottleneckBlock(
+          (shortcut): Conv2d(
+            64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=256, eps=1e-05)
+          )
+          (conv1): Conv2d(
+            64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=64, eps=1e-05)
+          )
+          (conv2): Conv2d(
+            64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=64, eps=1e-05)
+          )
+          (conv3): Conv2d(
+            64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=256, eps=1e-05)
+          )
+        )
+        (1): BottleneckBlock(
+          (conv1): Conv2d(
+            256, 64, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=64, eps=1e-05)
+          )
+          (conv2): Conv2d(
+            64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=64, eps=1e-05)
+          )
+          (conv3): Conv2d(
+            64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=256, eps=1e-05)
+          )
+        )
+        (2): BottleneckBlock(
+          (conv1): Conv2d(
+            256, 64, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=64, eps=1e-05)
+          )
+          (conv2): Conv2d(
+            64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=64, eps=1e-05)
+          )
+          (conv3): Conv2d(
+            64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=256, eps=1e-05)
+          )
+        )
+      )
+      (res3): Sequential(
+        (0): BottleneckBlock(
+          (shortcut): Conv2d(
+            256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False
+            (norm): FrozenBatchNorm2d(num_features=512, eps=1e-05)
+          )
+          (conv1): Conv2d(
+            256, 128, kernel_size=(1, 1), stride=(2, 2), bias=False
+            (norm): FrozenBatchNorm2d(num_features=128, eps=1e-05)
+          )
+          (conv2): Conv2d(
+            128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=128, eps=1e-05)
+          )
+          (conv3): Conv2d(
+            128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=512, eps=1e-05)
+          )
+        )
+        (1): BottleneckBlock(
+          (conv1): Conv2d(
+            512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=128, eps=1e-05)
+          )
+          (conv2): Conv2d(
+            128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=128, eps=1e-05)
+          )
+          (conv3): Conv2d(
+            128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=512, eps=1e-05)
+          )
+        )
+        (2): BottleneckBlock(
+          (conv1): Conv2d(
+            512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=128, eps=1e-05)
+          )
+          (conv2): Conv2d(
+            128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=128, eps=1e-05)
+          )
+          (conv3): Conv2d(
+            128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=512, eps=1e-05)
+          )
+        )
+        (3): BottleneckBlock(
+          (conv1): Conv2d(
+            512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=128, eps=1e-05)
+          )
+          (conv2): Conv2d(
+            128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=128, eps=1e-05)
+          )
+          (conv3): Conv2d(
+            128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=512, eps=1e-05)
+          )
+        )
+      )
+      (res4): Sequential(
+        (0): BottleneckBlock(
+          (shortcut): Conv2d(
+            512, 1024, kernel_size=(1, 1), stride=(2, 2), bias=False
+            (norm): FrozenBatchNorm2d(num_features=1024, eps=1e-05)
+          )
+          (conv1): Conv2d(
+            512, 256, kernel_size=(1, 1), stride=(2, 2), bias=False
+            (norm): FrozenBatchNorm2d(num_features=256, eps=1e-05)
+          )
+          (conv2): Conv2d(
+            256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=256, eps=1e-05)
+          )
+          (conv3): Conv2d(
+            256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=1024, eps=1e-05)
+          )
+        )
+        (1): BottleneckBlock(
+          (conv1): Conv2d(
+            1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=256, eps=1e-05)
+          )
+          (conv2): Conv2d(
+            256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=256, eps=1e-05)
+          )
+          (conv3): Conv2d(
+            256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=1024, eps=1e-05)
+          )
+        )
+        (2): BottleneckBlock(
+          (conv1): Conv2d(
+            1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=256, eps=1e-05)
+          )
+          (conv2): Conv2d(
+            256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=256, eps=1e-05)
+          )
+          (conv3): Conv2d(
+            256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=1024, eps=1e-05)
+          )
+        )
+        (3): BottleneckBlock(
+          (conv1): Conv2d(
+            1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=256, eps=1e-05)
+          )
+          (conv2): Conv2d(
+            256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=256, eps=1e-05)
+          )
+          (conv3): Conv2d(
+            256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=1024, eps=1e-05)
+          )
+        )
+        (4): BottleneckBlock(
+          (conv1): Conv2d(
+            1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=256, eps=1e-05)
+          )
+          (conv2): Conv2d(
+            256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=256, eps=1e-05)
+          )
+          (conv3): Conv2d(
+            256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=1024, eps=1e-05)
+          )
+        )
+        (5): BottleneckBlock(
+          (conv1): Conv2d(
+            1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=256, eps=1e-05)
+          )
+          (conv2): Conv2d(
+            256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=256, eps=1e-05)
+          )
+          (conv3): Conv2d(
+            256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=1024, eps=1e-05)
+          )
+        )
+      )
+      (res5): Sequential(
+        (0): BottleneckBlock(
+          (shortcut): Conv2d(
+            1024, 2048, kernel_size=(1, 1), stride=(2, 2), bias=False
+            (norm): FrozenBatchNorm2d(num_features=2048, eps=1e-05)
+          )
+          (conv1): Conv2d(
+            1024, 512, kernel_size=(1, 1), stride=(2, 2), bias=False
+            (norm): FrozenBatchNorm2d(num_features=512, eps=1e-05)
+          )
+          (conv2): Conv2d(
+            512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=512, eps=1e-05)
+          )
+          (conv3): Conv2d(
+            512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=2048, eps=1e-05)
+          )
+        )
+        (1): BottleneckBlock(
+          (conv1): Conv2d(
+            2048, 512, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=512, eps=1e-05)
+          )
+          (conv2): Conv2d(
+            512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=512, eps=1e-05)
+          )
+          (conv3): Conv2d(
+            512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=2048, eps=1e-05)
+          )
+        )
+        (2): BottleneckBlock(
+          (conv1): Conv2d(
+            2048, 512, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=512, eps=1e-05)
+          )
+          (conv2): Conv2d(
+            512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=512, eps=1e-05)
+          )
+          (conv3): Conv2d(
+            512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False
+            (norm): FrozenBatchNorm2d(num_features=2048, eps=1e-05)
+          )
+        )
+      )
+    )
+  )
+  (head): RetinaNetHead(
+    (cls_subnet): Sequential(
+      (0): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (1): ReLU()
+      (2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (3): ReLU()
+      (4): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (5): ReLU()
+      (6): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (7): ReLU()
+    )
+    (bbox_subnet): Sequential(
+      (0): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (1): ReLU()
+      (2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (3): ReLU()
+      (4): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (5): ReLU()
+      (6): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (7): ReLU()
+    )
+    (cls_score): Conv2d(256, 18, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (bbox_pred): Conv2d(256, 36, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  )
+  (anchor_generator): DefaultAnchorGenerator(
+    (cell_anchors): BufferList()
+  )
+)
+WARNING [09/26 20:19:55 d2.data.datasets.coco]: 
+Category ids in annotations are not in [1, #categories]! We'll apply a mapping for you.
+
+[09/26 20:19:55 d2.data.datasets.coco]: Loaded 2892 images in COCO format from /home/thanhtran/Gia-mia/mia/rae/data_coco/bbox/train.json
+[09/26 20:19:55 d2.data.build]: Removed 0 images with no usable annotations. 2892 images left.
+[09/26 20:19:55 d2.data.build]: Distribution of instances among all 2 categories:
+|  category  | #instances   |  category  | #instances   |
+|:----------:|:-------------|:----------:|:-------------|
+| sugarcane  | 9933         |    weed    | 21739        |
+|            |              |            |              |
+|   total    | 31672        |            |              |
+[09/26 20:19:55 d2.data.dataset_mapper]: [DatasetMapper] Augmentations used in training: [ResizeShortestEdge(short_edge_length=(1024,), max_size=1024, sample_style='choice'), RandomFlip()]
+[09/26 20:19:55 d2.data.build]: Using training sampler TrainingSampler
+[09/26 20:19:55 d2.data.common]: Serializing the dataset using: <class 'detectron2.data.common._TorchSerializedList'>
+[09/26 20:19:55 d2.data.common]: Serializing 2892 elements to byte tensors and concatenating them all ...
+[09/26 20:19:55 d2.data.common]: Serialized dataset takes 1.89 MiB
+[09/26 20:19:55 d2.data.build]: Making batched data loader with batch_size=2
+[09/26 20:19:55 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from https://dl.fbaipublicfiles.com/detectron2/COCO-Detection/retinanet_R_50_FPN_3x/190397829/model_final_5bd44e.pkl ...
+Skip loading parameter 'head.cls_score.weight' to the model due to incompatible shapes: (720, 256, 3, 3) in the checkpoint but (18, 256, 3, 3) in the model! You might want to double check if this is expected.
+Skip loading parameter 'head.cls_score.bias' to the model due to incompatible shapes: (720,) in the checkpoint but (18,) in the model! You might want to double check if this is expected.
+Some model parameters or buffers are not found in the checkpoint:
+head.cls_score.{bias, weight}
+The checkpoint state_dict contains keys that are not used by the model:
+  pixel_mean
+  pixel_std
+[09/26 20:19:55 d2.engine.train_loop]: Starting training from iteration 0
+/home/thanhtran/Gia-mia/mia/rae/envs/rae/lib/python3.10/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3526.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+[09/26 20:20:09 d2.utils.events]:  eta: 1:32:17  iter: 19  total_loss: 1.066  loss_cls: 0.6787  loss_box_reg: 0.394    time: 0.6137  last_time: 0.6142  data_time: 0.0212  last_data_time: 0.0179   lr: 7.6781e-05  max_mem: 1682M
+[09/26 20:20:22 d2.utils.events]:  eta: 1:32:03  iter: 39  total_loss: 0.7815  loss_cls: 0.4136  loss_box_reg: 0.3512    time: 0.6137  last_time: 0.6134  data_time: 0.0168  last_data_time: 0.0181   lr: 0.00015655  max_mem: 1889M
+[09/26 20:20:34 d2.utils.events]:  eta: 1:31:55  iter: 59  total_loss: 0.6853  loss_cls: 0.3633  loss_box_reg: 0.3309    time: 0.6140  last_time: 0.6153  data_time: 0.0178  last_data_time: 0.0178   lr: 0.00023632  max_mem: 1889M
+[09/26 20:20:46 d2.utils.events]:  eta: 1:31:46  iter: 79  total_loss: 0.687  loss_cls: 0.3338  loss_box_reg: 0.332    time: 0.6142  last_time: 0.6177  data_time: 0.0184  last_data_time: 0.0180   lr: 0.00031609  max_mem: 1889M
+[09/26 20:20:59 d2.utils.events]:  eta: 1:31:36  iter: 99  total_loss: 0.8359  loss_cls: 0.4867  loss_box_reg: 0.3605    time: 0.6147  last_time: 0.6135  data_time: 0.0184  last_data_time: 0.0172   lr: 0.00039586  max_mem: 1889M
+[09/26 20:21:11 d2.utils.events]:  eta: 1:31:25  iter: 119  total_loss: 0.7563  loss_cls: 0.4033  loss_box_reg: 0.3573    time: 0.6148  last_time: 0.6144  data_time: 0.0182  last_data_time: 0.0181   lr: 0.00047563  max_mem: 1889M
+[09/26 20:21:23 d2.utils.events]:  eta: 1:31:14  iter: 139  total_loss: 0.8949  loss_cls: 0.5843  loss_box_reg: 0.3026    time: 0.6150  last_time: 0.6139  data_time: 0.0178  last_data_time: 0.0179   lr: 0.0005554  max_mem: 1889M
+[09/26 20:21:35 d2.utils.events]:  eta: 1:31:02  iter: 159  total_loss: 1.459  loss_cls: 0.9189  loss_box_reg: 0.3969    time: 0.6150  last_time: 0.6143  data_time: 0.0183  last_data_time: 0.0191   lr: 0.00063517  max_mem: 1889M
+[09/26 20:21:48 d2.utils.events]:  eta: 1:30:49  iter: 179  total_loss: 1.846  loss_cls: 1.203  loss_box_reg: 0.5336    time: 0.6147  last_time: 0.6101  data_time: 0.0181  last_data_time: 0.0188   lr: 0.00071494  max_mem: 1896M
+[09/26 20:22:00 d2.utils.events]:  eta: 1:30:34  iter: 199  total_loss: 1.926  loss_cls: 1.181  loss_box_reg: 0.6246    time: 0.6144  last_time: 0.6121  data_time: 0.0185  last_data_time: 0.0189   lr: 0.00079471  max_mem: 1896M
+[09/26 20:22:12 d2.utils.events]:  eta: 1:30:20  iter: 219  total_loss: 2.094  loss_cls: 1.35  loss_box_reg: 0.6971    time: 0.6142  last_time: 0.6142  data_time: 0.0187  last_data_time: 0.0182   lr: 0.00087448  max_mem: 1896M
+[09/26 20:22:24 d2.utils.events]:  eta: 1:30:08  iter: 239  total_loss: 1.563  loss_cls: 1.006  loss_box_reg: 0.5162    time: 0.6139  last_time: 0.6054  data_time: 0.0177  last_data_time: 0.0187   lr: 0.00095425  max_mem: 1896M
+ERROR [09/26 20:22:34 d2.engine.train_loop]: Exception in writing metrics: 
+Traceback (most recent call last):
+  File "/home/thanhtran/Gia-mia/mia/rae/envs/rae/lib/python3.10/site-packages/detectron2/engine/train_loop.py", line 367, in _write_metrics
+    SimpleTrainer.write_metrics(loss_dict, data_time, iter, prefix)
+  File "/home/thanhtran/Gia-mia/mia/rae/envs/rae/lib/python3.10/site-packages/detectron2/engine/train_loop.py", line 409, in write_metrics
+    raise FloatingPointError(
+FloatingPointError: Loss became infinite or NaN at iteration=255!
+loss_dict = {'loss_cls': nan, 'loss_box_reg': 0.2917872965335846}
+ERROR [09/26 20:22:34 d2.engine.train_loop]: Exception during training:
+Traceback (most recent call last):
+  File "/home/thanhtran/Gia-mia/mia/rae/envs/rae/lib/python3.10/site-packages/detectron2/engine/train_loop.py", line 152, in train
+    self.run_step()
+  File "/home/thanhtran/Gia-mia/mia/rae/envs/rae/lib/python3.10/site-packages/detectron2/engine/defaults.py", line 530, in run_step
+    self._trainer.run_step()
+  File "/home/thanhtran/Gia-mia/mia/rae/src/train_detectron2.py", line 167, in run_step
+    self._write_metrics(last_loss_dict, data_time)
+  File "/home/thanhtran/Gia-mia/mia/rae/envs/rae/lib/python3.10/site-packages/detectron2/engine/train_loop.py", line 367, in _write_metrics
+    SimpleTrainer.write_metrics(loss_dict, data_time, iter, prefix)
+  File "/home/thanhtran/Gia-mia/mia/rae/envs/rae/lib/python3.10/site-packages/detectron2/engine/train_loop.py", line 409, in write_metrics
+    raise FloatingPointError(
+FloatingPointError: Loss became infinite or NaN at iteration=255!
+loss_dict = {'loss_cls': nan, 'loss_box_reg': 0.2917872965335846}
+[09/26 20:22:34 d2.engine.hooks]: Overall training speed: 253 iterations in 0:02:35 (0.6161 s / it)
+[09/26 20:22:34 d2.engine.hooks]: Total training time: 0:02:35 (0:00:00 on hooks)
+[09/26 20:22:34 d2.utils.events]:  eta: 1:29:55  iter: 255  total_loss: 2.764  loss_cls: 1.811  loss_box_reg: 0.4619    time: 0.6137  last_time: 0.6075  data_time: 0.0178  last_data_time: 0.0177   lr: 0.00099806  max_mem: 1896M
+Traceback (most recent call last):
+  File "/home/thanhtran/Gia-mia/mia/rae/src/train_detectron2.py", line 252, in <module>
+    main()
+  File "/home/thanhtran/Gia-mia/mia/rae/src/train_detectron2.py", line 246, in main
+    trainer.train()
+  File "/home/thanhtran/Gia-mia/mia/rae/envs/rae/lib/python3.10/site-packages/detectron2/engine/defaults.py", line 520, in train
+    super().train(self.start_iter, self.max_iter)
+  File "/home/thanhtran/Gia-mia/mia/rae/envs/rae/lib/python3.10/site-packages/detectron2/engine/train_loop.py", line 152, in train
+    self.run_step()
+  File "/home/thanhtran/Gia-mia/mia/rae/envs/rae/lib/python3.10/site-packages/detectron2/engine/defaults.py", line 530, in run_step
+    self._trainer.run_step()
+  File "/home/thanhtran/Gia-mia/mia/rae/src/train_detectron2.py", line 167, in run_step
+    self._write_metrics(last_loss_dict, data_time)
+  File "/home/thanhtran/Gia-mia/mia/rae/envs/rae/lib/python3.10/site-packages/detectron2/engine/train_loop.py", line 367, in _write_metrics
+    SimpleTrainer.write_metrics(loss_dict, data_time, iter, prefix)
+  File "/home/thanhtran/Gia-mia/mia/rae/envs/rae/lib/python3.10/site-packages/detectron2/engine/train_loop.py", line 409, in write_metrics
+    raise FloatingPointError(
+FloatingPointError: Loss became infinite or NaN at iteration=255!
+loss_dict = {'loss_cls': nan, 'loss_box_reg': 0.2917872965335846}

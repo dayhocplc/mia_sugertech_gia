@@ -1,0 +1,16 @@
+[rae] 123/124 ảnh test còn bản gốc · cỡ {'4080x3072': 46, '3072x4080': 76, '4080x3060': 1}
+/home/thanhtran/Gia-mia/mia/rae/envs/rae/lib/python3.10/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3526.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+[rae]   faster_rcnn            k=1 recall=0.475 precision=0.505
+[rae]   faster_rcnn            k=2 recall=0.528 precision=0.216
+[rae]   faster_rcnn            k=3 recall=0.399 precision=0.093
+[rae]   retinanet              k=1 recall=0.486 precision=0.439
+[rae]   retinanet              k=2 recall=0.534 precision=0.179
+[rae]   retinanet              k=3 recall=0.427 precision=0.083
+[rae]   yolov10                k=1 recall=0.429 precision=0.619
+[rae]   yolov10                k=2 recall=0.448 precision=0.319
+[rae]   yolov10                k=3 recall=0.378 precision=0.177
+[rae] → /home/thanhtran/Gia-mia/mia/rae/results/tiling_analysis.json
+[rae] faster_rcnn    k=1:0.475  k=2:0.528  k=3:0.399
+[rae] retinanet      k=1:0.486  k=2:0.534  k=3:0.427
+[rae] yolov10        k=1:0.429  k=2:0.448  k=3:0.378

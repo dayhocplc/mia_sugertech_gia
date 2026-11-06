@@ -1,0 +1,23 @@
+/home/thanhtran/Gia-mia/mia/rae/envs/rae/lib/python3.10/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3526.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+[rae] faster_rcnn: 25/124 ảnh
+[rae] faster_rcnn: 50/124 ảnh
+[rae] faster_rcnn: 75/124 ảnh
+[rae] faster_rcnn: 100/124 ảnh
+[rae] Faster R-CNN: sugarcane P=0.975 R=0.963 F1=0.969  weed P=0.972 R=0.981 F1=0.977  |  Acc=0.973  24.0 FPS
+[rae] mask_rcnn: 25/50 ảnh
+[rae] mask_rcnn: 50/50 ảnh
+[rae] Mask R-CNN: sugarcane P=0.917 R=0.894 F1=0.905  weed P=0.949 R=0.961 F1=0.955  |  Acc=0.939  14.1 FPS
+[rae] retinanet: 25/124 ảnh
+[rae] retinanet: 50/124 ảnh
+[rae] retinanet: 75/124 ảnh
+[rae] retinanet: 100/124 ảnh
+[rae] RetinaNet: sugarcane P=0.974 R=0.944 F1=0.959  weed P=0.961 R=0.982 F1=0.971  |  Acc=0.966  24.8 FPS
+[rae] yolov8_seg: 25/50 ảnh
+[rae] yolov8_seg: 50/50 ảnh
+[rae] YOLOv8-seg: sugarcane P=0.943 R=0.905 F1=0.923  weed P=0.957 R=0.975 F1=0.966  |  Acc=0.953  75.6 FPS
+[rae] yolov10: 25/124 ảnh
+[rae] yolov10: 50/124 ảnh
+[rae] yolov10: 75/124 ảnh
+[rae] yolov10: 100/124 ảnh
+[rae] YOLOv10: sugarcane P=0.979 R=0.966 F1=0.972  weed P=0.972 R=0.983 F1=0.977  |  Acc=0.975  205.7 FPS

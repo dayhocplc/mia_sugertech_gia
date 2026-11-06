@@ -1,0 +1,13 @@
+=== faster_rcnn seed 4 — bắt đầu 2026-09-26 14:42:57 ===
+    ✓ xong
+=== retinanet seed 4 — bắt đầu 2026-09-26 16:36:15 ===
+    ✓ xong
+=== yolov10 seed 4 — bắt đầu 2026-09-26 18:12:28 ===
+    ✓ xong
+=== faster_rcnn seed 5 — bắt đầu 2026-09-26 18:30:25 ===
+    ✓ xong
+=== retinanet seed 5 — bắt đầu 2026-09-26 20:19:54 ===
+    ✗ PHÂN KỲ (NaN) — ghi nhận là kết quả, chạy tiếp lượt sau
+=== yolov10 seed 5 — bắt đầu 2026-09-26 20:22:35 ===
+    ✓ xong
+XONG TẤT CẢ — trạng thái từng lượt ở logs/seeds_status.tsv
