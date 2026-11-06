@@ -1,0 +1,110 @@
+{
+ "model": "retinanet",
+ "caps": [
+  100,
+  300
+ ],
+ "conf": 0.3,
+ "iou": 0.5,
+ "n_test_images": 124,
+ "note": "Detectron2 m\u1eb7c \u0111\u1ecbnh gi\u1eef 100 ph\u00e1t hi\u1ec7n m\u1ed7i \u1ea3nh. Ch\u1ea1y l\u1ea1i c\u00f9ng tr\u1ecdng s\u1ed1 v\u1edbi tr\u1ea7n cao h\u01a1n \u0111\u1ec3 bi\u1ebft average precision v\u00e0 recall \u0111ang b\u1ecb tr\u1ea7n ch\u1eb7n hay kh\u00f4ng. Kh\u00f4ng hu\u1ea5n luy\u1ec7n l\u1ea1i.",
+ "by_cap": {
+  "100": {
+   "n_runs": 4,
+   "weed_precision": {
+    "mean": 0.4360750576192856,
+    "sd": 0.005925009355279836
+   },
+   "weed_recall": {
+    "mean": 0.5008389261744967,
+    "sd": 0.01324688957754697
+   },
+   "weed_f1": {
+    "mean": 0.46617937654163133,
+    "sd": 0.008181427042570402
+   },
+   "tp": {
+    "mean": 447.75,
+    "sd": 11.84271928232701
+   },
+   "fp": {
+    "mean": 579.0,
+    "sd": 13.114877048604
+   },
+   "fn": {
+    "mean": 446.25,
+    "sd": 11.84271928232701
+   },
+   "median_detections_per_image": {
+    "mean": 12.75,
+    "sd": 0.5
+   },
+   "max_detections_per_image": {
+    "mean": 34.5,
+    "sd": 1.2909944487358056
+   },
+   "AP50": {
+    "mean": 57.04521732971927,
+    "sd": 0.14897635134648385
+   },
+   "AP": {
+    "mean": 28.50385538103318,
+    "sd": 0.4790273704389235
+   },
+   "n_raw_detections": {
+    "mean": 6331.75,
+    "sd": 102.50975563330546
+   }
+  },
+  "300": {
+   "n_runs": 4,
+   "weed_precision": {
+    "mean": 0.4360750576192856,
+    "sd": 0.005925009355279836
+   },
+   "weed_recall": {
+    "mean": 0.5008389261744967,
+    "sd": 0.01324688957754697
+   },
+   "weed_f1": {
+    "mean": 0.46617937654163133,
+    "sd": 0.008181427042570402
+   },
+   "tp": {
+    "mean": 447.75,
+    "sd": 11.84271928232701
+   },
+   "fp": {
+    "mean": 579.0,
+    "sd": 13.114877048604
+   },
+   "fn": {
+    "mean": 446.25,
+    "sd": 11.84271928232701
+   },
+   "median_detections_per_image": {
+    "mean": 12.75,
+    "sd": 0.5
+   },
+   "max_detections_per_image": {
+    "mean": 34.5,
+    "sd": 1.2909944487358056
+   },
+   "AP50": {
+    "mean": 57.081278353492436,
+    "sd": 0.193784517045401
+   },
+   "AP": {
+    "mean": 28.532038689247752,
+    "sd": 0.48088734999333604
+   },
+   "n_raw_detections": {
+    "mean": 6802.25,
+    "sd": 142.12523819974174
+   }
+  }
+ },
+ "delta_recall": 0.0,
+ "delta_f1": 0.0,
+ "delta_ap50": 0.03606102377316489
+}

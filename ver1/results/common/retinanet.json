@@ -1,0 +1,143 @@
+{
+ "model": "retinanet",
+ "label": "RetinaNet",
+ "annotation": "bbox",
+ "test_set": "common",
+ "imgsz": 1024,
+ "n_test_images": 104,
+ "conf_threshold": 0.3,
+ "iou_threshold": 0.5,
+ "confusion_matrix": [
+  [
+   232,
+   13,
+   68
+  ],
+  [
+   7,
+   344,
+   302
+  ],
+  [
+   184,
+   434,
+   0
+  ]
+ ],
+ "confusion_matrix_labels": [
+  "sugarcane",
+  "weed",
+  "background"
+ ],
+ "metrics": {
+  "filtered": {
+   "matrix": [
+    [
+     232,
+     13
+    ],
+    [
+     7,
+     344
+    ]
+   ],
+   "per_class": {
+    "sugarcane": {
+     "TP": 232,
+     "FP": 7,
+     "FN": 13,
+     "TN": 344,
+     "precision": 0.9707112970711297,
+     "recall": 0.9469387755102041,
+     "f1": 0.9586776859504132,
+     "accuracy": 0.9664429530201343
+    },
+    "weed": {
+     "TP": 344,
+     "FP": 13,
+     "FN": 7,
+     "TN": 232,
+     "precision": 0.9635854341736695,
+     "recall": 0.98005698005698,
+     "f1": 0.9717514124293786,
+     "accuracy": 0.9664429530201343
+    }
+   },
+   "macro": {
+    "precision": 0.9671483656223996,
+    "recall": 0.9634978777835921,
+    "f1": 0.9652145491898959,
+    "accuracy": 0.9664429530201343
+   },
+   "overall_accuracy": 0.9664429530201343
+  },
+  "with_background": {
+   "matrix": [
+    [
+     232,
+     13,
+     68
+    ],
+    [
+     7,
+     344,
+     302
+    ],
+    [
+     184,
+     434,
+     0
+    ]
+   ],
+   "per_class": {
+    "sugarcane": {
+     "TP": 232,
+     "FP": 191,
+     "FN": 81,
+     "TN": 1080,
+     "precision": 0.5484633569739953,
+     "recall": 0.7412140575079872,
+     "f1": 0.6304347826086956,
+     "accuracy": 0.8282828282828283
+    },
+    "weed": {
+     "TP": 344,
+     "FP": 447,
+     "FN": 309,
+     "TN": 484,
+     "precision": 0.43489254108723135,
+     "recall": 0.5267993874425727,
+     "f1": 0.47645429362880887,
+     "accuracy": 0.5227272727272727
+    }
+   },
+   "macro": {
+    "precision": 0.49167794903061335,
+    "recall": 0.6340067224752799,
+    "f1": 0.5534445381187523,
+    "accuracy": 0.6755050505050505
+   },
+   "overall_accuracy": 0.36363636363636365
+  }
+ },
+ "coco": {
+  "AP": 30.75527781774135,
+  "AP50": 59.57055883838292,
+  "AP75": 28.326530964595225,
+  "APs": 0.8609204216967546,
+  "APm": 6.294760261686637,
+  "APl": 33.129114929968715
+ },
+ "weed_area_pct": {
+  "detected_median": 2.367919921875,
+  "missed_median": 1.0897216796875,
+  "n_detected": 351,
+  "n_missed": 302
+ },
+ "speed_eval_loop_single_pass": {
+  "ms_per_image": 45.406364452451314,
+  "fps": 22.023344349605022,
+  "device": "workstation GPU",
+  "note": "Một lượt trong vòng lặp đánh giá, gồm cả I/O; không phải phép đo thông lượng. Số thông lượng của bài nằm ở results/edge_<model>.json (lặp 10×40 ảnh, bỏ 10 ảnh khởi động, batch 1, FP32, đồng bộ CUDA từng ảnh)."
+ }
+}

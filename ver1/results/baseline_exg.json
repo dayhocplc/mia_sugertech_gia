@@ -1,0 +1,38 @@
+{
+ "conf": 0.3,
+ "iou": 0.5,
+ "n_test_images": 124,
+ "method": "ExG = 2G − R − B trên ảnh chuẩn hoá, ngưỡng Otsu, mở rồi đóng hình thái học với nhân ellipse 7×7, thành phần liên thông ≥ 64 px làm hộp. Mọi hộp được chấm như phát hiện lớp cỏ, cùng ngưỡng tin cậy và IoU với ba mô hình học sâu.",
+ "caveat": "Mía và cỏ đều xanh, nên một chỉ số màu về nguyên tắc không tách được hai lớp; đối chứng này đo phần việc mà học sâu phải làm, không phải một phương pháp cạnh tranh.",
+ "variants": {
+  "exg_all": {
+   "weed_precision": 0.0047789725209080045,
+   "weed_recall": 0.03131991051454139,
+   "weed_f1": 0.008292610691544498,
+   "tp": 28,
+   "fp": 5831,
+   "fn": 866,
+   "detections_per_image": 47.25
+  },
+  "exg_size": {
+   "weed_precision": 0.0173992673992674,
+   "weed_recall": 0.021252796420581657,
+   "weed_f1": 0.019133937562940583,
+   "tp": 19,
+   "fp": 1073,
+   "fn": 875,
+   "detections_per_image": 8.806451612903226
+  }
+ },
+ "size_filter_tuning": {
+  "chosen_on": "valid",
+  "n_valid_images": 123,
+  "area_lo_px2": 3265.8250000000003,
+  "area_hi_px2": 187212.97499999977,
+  "valid_f1": 0.018207954000958315,
+  "weed_area_px2_p5_p95_on_valid": [
+   3265.8250000000003,
+   187212.97499999977
+  ]
+ }
+}

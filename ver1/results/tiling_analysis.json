@@ -1,0 +1,244 @@
+{
+ "tiles": [
+  1,
+  2,
+  3
+ ],
+ "overlap": 0.2,
+ "nms_iou": 0.55,
+ "seeds": [
+  0
+ ],
+ "conf": 0.3,
+ "iou": 0.5,
+ "export_px": 1280,
+ "camera_height_cm": 140.0,
+ "n_test_images_with_raw": 123,
+ "n_test_images": 124,
+ "raw_sizes": {
+  "4080x3072": 46,
+  "3072x4080": 76,
+  "4080x3060": 1
+ },
+ "quartile_edges_px2_on_1280": [
+  9010.0,
+  22601.25,
+  53361.0
+ ],
+ "note": "M\u1ed7i \u1ea3nh g\u1ed1c c\u1eaft th\u00e0nh l\u01b0\u1edbi k\u00d7k \u00f4 ch\u1ed3ng l\u1ea5n 20%, m\u1ed7i \u00f4 \u00e9p v\u1ec1 1280\u00d71280 r\u1ed3i g\u1ed9p d\u1ef1 \u0111o\u00e1n b\u1eb1ng NMS. k=1 t\u00e1i l\u1eadp \u0111\u01b0\u1eddng \u1ed1ng c\u1ee7a b\u00e0i v\u00e0 l\u00e0 \u0111\u1ed1i ch\u1ee9ng. M\u00f4 h\u00ecnh kh\u00f4ng \u0111\u01b0\u1ee3c hu\u1ea5n luy\u1ec7n l\u1ea1i, n\u00ean m\u1ed9t ph\u1ea7n thay \u0111\u1ed5i l\u00e0 l\u1ec7ch thang t\u1ef7 l\u1ec7 gi\u1eefa hu\u1ea5n luy\u1ec7n v\u00e0 suy lu\u1eadn \u2014 \u0111\u00fang nh\u01b0 khi h\u1ea1 camera tr\u00ean m\u1ed9t m\u00e1y \u0111\u00e3 tri\u1ec3n khai.",
+ "models": {
+  "faster_rcnn": {
+   "1": {
+    "n_runs": 1,
+    "effective_gsd_multiplier": 1.0,
+    "equivalent_camera_height_cm": 140.0,
+    "weed_recall": {
+     "mean": 0.4746906636670416,
+     "sd": null
+    },
+    "weed_precision": {
+     "mean": 0.5053892215568863,
+     "sd": null
+    },
+    "weed_f1": {
+     "mean": 0.4895591647331786,
+     "sd": null
+    },
+    "recall_by_quartile": [
+     0.22072072072072071,
+     0.4954954954954955,
+     0.5495495495495496,
+     0.6322869955156951
+    ]
+   },
+   "2": {
+    "n_runs": 1,
+    "effective_gsd_multiplier": 0.5,
+    "equivalent_camera_height_cm": 70.0,
+    "weed_recall": {
+     "mean": 0.5275590551181102,
+     "sd": null
+    },
+    "weed_precision": {
+     "mean": 0.21573137074517018,
+     "sd": null
+    },
+    "weed_f1": {
+     "mean": 0.30623571661769505,
+     "sd": null
+    },
+    "recall_by_quartile": [
+     0.42342342342342343,
+     0.6216216216216216,
+     0.6351351351351351,
+     0.4304932735426009
+    ]
+   },
+   "3": {
+    "n_runs": 1,
+    "effective_gsd_multiplier": 0.3333333333333333,
+    "equivalent_camera_height_cm": 46.666666666666664,
+    "weed_recall": {
+     "mean": 0.39932508436445446,
+     "sd": null
+    },
+    "weed_precision": {
+     "mean": 0.09329829172141918,
+     "sd": null
+    },
+    "weed_f1": {
+     "mean": 0.15125692373242436,
+     "sd": null
+    },
+    "recall_by_quartile": [
+     0.4594594594594595,
+     0.527027027027027,
+     0.43243243243243246,
+     0.17937219730941703
+    ]
+   }
+  },
+  "retinanet": {
+   "1": {
+    "n_runs": 1,
+    "effective_gsd_multiplier": 1.0,
+    "equivalent_camera_height_cm": 140.0,
+    "weed_recall": {
+     "mean": 0.4859392575928009,
+     "sd": null
+    },
+    "weed_precision": {
+     "mean": 0.43947100712105797,
+     "sd": null
+    },
+    "weed_f1": {
+     "mean": 0.4615384615384615,
+     "sd": null
+    },
+    "recall_by_quartile": [
+     0.22522522522522523,
+     0.45045045045045046,
+     0.5720720720720721,
+     0.695067264573991
+    ]
+   },
+   "2": {
+    "n_runs": 1,
+    "effective_gsd_multiplier": 0.5,
+    "equivalent_camera_height_cm": 70.0,
+    "weed_recall": {
+     "mean": 0.5343082114735658,
+     "sd": null
+    },
+    "weed_precision": {
+     "mean": 0.17877305231464058,
+     "sd": null
+    },
+    "weed_f1": {
+     "mean": 0.2679075014100395,
+     "sd": null
+    },
+    "recall_by_quartile": [
+     0.45045045045045046,
+     0.6171171171171171,
+     0.6351351351351351,
+     0.4349775784753363
+    ]
+   },
+   "3": {
+    "n_runs": 1,
+    "effective_gsd_multiplier": 0.3333333333333333,
+    "equivalent_camera_height_cm": 46.666666666666664,
+    "weed_recall": {
+     "mean": 0.42744656917885265,
+     "sd": null
+    },
+    "weed_precision": {
+     "mean": 0.08327854481700636,
+     "sd": null
+    },
+    "weed_f1": {
+     "mean": 0.13939838591342624,
+     "sd": null
+    },
+    "recall_by_quartile": [
+     0.4369369369369369,
+     0.5855855855855856,
+     0.4594594594594595,
+     0.22869955156950672
+    ]
+   }
+  },
+  "yolov10": {
+   "1": {
+    "n_runs": 1,
+    "effective_gsd_multiplier": 1.0,
+    "equivalent_camera_height_cm": 140.0,
+    "weed_recall": {
+     "mean": 0.42857142857142855,
+     "sd": null
+    },
+    "weed_precision": {
+     "mean": 0.6185064935064936,
+     "sd": null
+    },
+    "weed_f1": {
+     "mean": 0.506312292358804,
+     "sd": null
+    },
+    "recall_by_quartile": [
+     0.22072072072072071,
+     0.45045045045045046,
+     0.49099099099099097,
+     0.5515695067264574
+    ]
+   },
+   "2": {
+    "n_runs": 1,
+    "effective_gsd_multiplier": 0.5,
+    "equivalent_camera_height_cm": 70.0,
+    "weed_recall": {
+     "mean": 0.44769403824521936,
+     "sd": null
+    },
+    "weed_precision": {
+     "mean": 0.31942215088282505,
+     "sd": null
+    },
+    "weed_f1": {
+     "mean": 0.3728337236533958,
+     "sd": null
+    },
+    "recall_by_quartile": [
+     0.3108108108108108,
+     0.5180180180180181,
+     0.509009009009009,
+     0.452914798206278
+    ]
+   },
+   "3": {
+    "n_runs": 1,
+    "effective_gsd_multiplier": 0.3333333333333333,
+    "equivalent_camera_height_cm": 46.666666666666664,
+    "weed_recall": {
+     "mean": 0.3779527559055118,
+     "sd": null
+    },
+    "weed_precision": {
+     "mean": 0.17740232312565998,
+     "sd": null
+    },
+    "weed_f1": {
+     "mean": 0.24146604383758535,
+     "sd": null
+    },
+    "recall_by_quartile": [
+     0.36936936936936937,
+     0.5225225225225225,
+     0.45495495495495497,
+     0.16591928251121077
+    ]
+   }
+  }
+ }
+}

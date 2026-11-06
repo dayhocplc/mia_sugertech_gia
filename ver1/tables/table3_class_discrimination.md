@@ -1,0 +1,7 @@
+| Model | Precision (sugarcane) | Recall (sugarcane) | Precision (weed) | Recall (weed) | F1 [95% CI] | Accuracy |
+|---|---|---|---|---|---|---|
+| Faster R-CNN | 0.975 | 0.963 | 0.972 | 0.981 | 0.973 [0.957, 0.986] | 0.973 |
+| RetinaNet | 0.974 | 0.944 | 0.961 | 0.982 | 0.965 [0.952, 0.977] | 0.966 |
+| YOLOv10 | 0.976 | 0.963 | 0.970 | 0.981 | 0.972 [0.959, 0.983] | 0.973 |
+
+Tính SAU KHI bỏ hàng và cột background của ma trận nhầm lẫn, nên chỉ đo việc gán đúng lớp cho những đối tượng đã ghép được với nhãn thật; không phạt bỏ sót và báo nhầm trên nền. Không dùng để xếp hạng mô hình — xem Bảng 2.

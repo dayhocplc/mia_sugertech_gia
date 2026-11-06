@@ -1,0 +1,316 @@
+{
+ "conds": {
+  "tile2": 2,
+  "orig1": 1
+ },
+ "overlap": 0.2,
+ "export_px": 1280,
+ "conf": 0.3,
+ "iou": 0.5,
+ "retinanet_base_lr": 0.0003,
+ "build": {
+  "tile2": {
+   "tag": "tile2",
+   "k": 2,
+   "overlap": 0.2,
+   "export_px": 1280,
+   "min_area_kept": 0.5,
+   "min_side_px": 8,
+   "splits": {
+    "train": {
+     "source_images": 964,
+     "source_images_without_raw": 0,
+     "tiles": 3856,
+     "instances": 13530
+    },
+    "valid": {
+     "source_images": 123,
+     "source_images_without_raw": 0,
+     "tiles": 492,
+     "instances": 1687
+    },
+    "test": {
+     "source_images": 124,
+     "source_images_without_raw": 1,
+     "tiles": 492,
+     "instances": 1707
+    }
+   }
+  },
+  "orig1": {
+   "tag": "orig1",
+   "k": 1,
+   "overlap": 0.2,
+   "export_px": 1280,
+   "min_area_kept": 0.5,
+   "min_side_px": 8,
+   "splits": {
+    "train": {
+     "source_images": 964,
+     "source_images_without_raw": 0,
+     "tiles": 964,
+     "instances": 10561
+    },
+    "valid": {
+     "source_images": 123,
+     "source_images_without_raw": 0,
+     "tiles": 123,
+     "instances": 1359
+    },
+    "test": {
+     "source_images": 124,
+     "source_images_without_raw": 1,
+     "tiles": 123,
+     "instances": 1305
+    }
+   }
+  }
+ },
+ "note": "Hai điều kiện dùng CÙNG 964 ảnh gốc, cùng công thức, đều không tăng cường; khác duy nhất ở thang huấn luyện. Vì bỏ phần tăng cường của Roboflow nên giá trị tuyệt đối thấp hơn Bảng 2 của bài; chỉ so trong nội bộ ma trận là có nghĩa. RetinaNet dùng lr thấp hơn ở CẢ HAI điều kiện vì lr của bài làm loss_cls thành NaN; giá trị của nó không so được với Bảng 2.",
+ "matrix": {
+  "tile2": {
+   "tile2": {
+    "faster_rcnn": {
+     "weed_precision": 0.14922480620155038,
+     "weed_recall": 0.19298245614035087,
+     "weed_f1": 0.16830601092896172,
+     "tp": 231,
+     "fp": 1317,
+     "fn": 966,
+     "n_test_images": 492,
+     "AP": 6.69556819542672,
+     "AP50": 17.652962655758135
+    },
+    "retinanet": {
+     "weed_precision": 0.39589442815249265,
+     "weed_recall": 0.11278195488721804,
+     "weed_f1": 0.1755526657997399,
+     "tp": 135,
+     "fp": 206,
+     "fn": 1062,
+     "n_test_images": 492,
+     "AP": 6.346180720996913,
+     "AP50": 13.535365312790715
+    },
+    "yolov10": {
+     "weed_precision": 0.06896551724137931,
+     "weed_recall": 0.006683375104427736,
+     "weed_f1": 0.012185833968012186,
+     "tp": 8,
+     "fp": 108,
+     "fn": 1189,
+     "n_test_images": 492,
+     "AP": 0.017545062955388265,
+     "AP50": 0.06322643133878605
+    }
+   },
+   "orig1": {
+    "faster_rcnn": {
+     "weed_precision": 0.20042194092827004,
+     "weed_recall": 0.10734463276836158,
+     "weed_f1": 0.13980868285504044,
+     "tp": 95,
+     "fp": 379,
+     "fn": 790,
+     "n_test_images": 123,
+     "AP": 4.886076911497982,
+     "AP50": 13.583706637617315
+    },
+    "retinanet": {
+     "weed_precision": 0.47368421052631576,
+     "weed_recall": 0.061016949152542375,
+     "weed_f1": 0.10810810810810811,
+     "tp": 54,
+     "fp": 60,
+     "fn": 831,
+     "n_test_images": 123,
+     "AP": 4.464911136481339,
+     "AP50": 11.156424230500704
+    },
+    "yolov10": {
+     "weed_precision": 0.05263157894736842,
+     "weed_recall": 0.0022598870056497176,
+     "weed_f1": 0.004333694474539545,
+     "tp": 2,
+     "fp": 36,
+     "fn": 883,
+     "n_test_images": 123,
+     "AP": 0.01403326074295409,
+     "AP50": 0.03094059405940594
+    }
+   }
+  },
+  "orig1": {
+   "tile2": {
+    "faster_rcnn": {
+     "weed_precision": 0.11211871393239901,
+     "weed_recall": 0.227234753550543,
+     "weed_f1": 0.1501518078940105,
+     "tp": 272,
+     "fp": 2154,
+     "fn": 925,
+     "n_test_images": 492,
+     "AP": 5.842938360880064,
+     "AP50": 16.454906162012172
+    },
+    "retinanet": {
+     "weed_precision": 0.21295279912184412,
+     "weed_recall": 0.1620718462823726,
+     "weed_f1": 0.18406072106261856,
+     "tp": 194,
+     "fp": 717,
+     "fn": 1003,
+     "n_test_images": 492,
+     "AP": 8.017719185338361,
+     "AP50": 17.22144642637354
+    },
+    "yolov10": {
+     "weed_precision": 0.30392156862745096,
+     "weed_recall": 0.1035923141186299,
+     "weed_f1": 0.15451713395638628,
+     "tp": 124,
+     "fp": 284,
+     "fn": 1073,
+     "n_test_images": 492,
+     "AP": 6.018981904493996,
+     "AP50": 11.51125661142329
+    }
+   },
+   "orig1": {
+    "faster_rcnn": {
+     "weed_precision": 0.2215909090909091,
+     "weed_recall": 0.17627118644067796,
+     "weed_f1": 0.19634990560100693,
+     "tp": 156,
+     "fp": 548,
+     "fn": 729,
+     "n_test_images": 123,
+     "AP": 11.09845298270642,
+     "AP50": 25.940734812184367
+    },
+    "retinanet": {
+     "weed_precision": 0.41714285714285715,
+     "weed_recall": 0.16497175141242937,
+     "weed_f1": 0.23643724696356272,
+     "tp": 146,
+     "fp": 204,
+     "fn": 739,
+     "n_test_images": 123,
+     "AP": 11.919365976222682,
+     "AP50": 28.539549097824057
+    },
+    "yolov10": {
+     "weed_precision": 0.43956043956043955,
+     "weed_recall": 0.0903954802259887,
+     "weed_f1": 0.14995313964386126,
+     "tp": 80,
+     "fp": 102,
+     "fn": 805,
+     "n_test_images": 123,
+     "AP": 8.961505174147225,
+     "AP50": 17.40814996306846
+    }
+   }
+  }
+ },
+ "scale_contrast": {
+  "faster_rcnn": {
+   "test_set": "tile2",
+   "orig_trained": {
+    "recall": 0.227234753550543,
+    "precision": 0.11211871393239901,
+    "f1": 0.1501518078940105,
+    "AP50": 16.454906162012172
+   },
+   "tile_trained": {
+    "recall": 0.19298245614035087,
+    "precision": 0.14922480620155038,
+    "f1": 0.16830601092896172,
+    "AP50": 17.652962655758135
+   },
+   "delta_recall": -0.034252297410192145,
+   "delta_precision": 0.03710609226915136,
+   "delta_f1": 0.018154203034951216
+  },
+  "retinanet": {
+   "test_set": "tile2",
+   "orig_trained": {
+    "recall": 0.1620718462823726,
+    "precision": 0.21295279912184412,
+    "f1": 0.18406072106261856,
+    "AP50": 17.22144642637354
+   },
+   "tile_trained": {
+    "recall": 0.11278195488721804,
+    "precision": 0.39589442815249265,
+    "f1": 0.1755526657997399,
+    "AP50": 13.535365312790715
+   },
+   "delta_recall": -0.04928989139515455,
+   "delta_precision": 0.18294162903064853,
+   "delta_f1": -0.00850805526287865
+  },
+  "yolov10": {
+   "test_set": "tile2",
+   "orig_trained": {
+    "recall": 0.1035923141186299,
+    "precision": 0.30392156862745096,
+    "f1": 0.15451713395638628,
+    "AP50": 11.51125661142329
+   },
+   "tile_trained": {
+    "recall": 0.006683375104427736,
+    "precision": 0.06896551724137931,
+    "f1": 0.012185833968012186,
+    "AP50": 0.06322643133878605
+   },
+   "delta_recall": -0.09690893901420217,
+   "delta_precision": -0.23495605138607165,
+   "delta_f1": -0.1423312999883741
+  }
+ },
+ "augmentation_gap": {
+  "faster_rcnn": {
+   "paper_augmented": {
+    "recall": 0.4746906636670416,
+    "precision": 0.5053892215568863,
+    "f1": 0.4895591647331786
+   },
+   "this_unaugmented": {
+    "recall": 0.17627118644067796,
+    "precision": 0.2215909090909091,
+    "f1": 0.19634990560100693
+   },
+   "delta_recall": -0.29841947722636364,
+   "delta_precision": -0.2837983124659772
+  },
+  "retinanet": {
+   "paper_augmented": {
+    "recall": 0.4859392575928009,
+    "precision": 0.43947100712105797,
+    "f1": 0.4615384615384615
+   },
+   "this_unaugmented": {
+    "recall": 0.16497175141242937,
+    "precision": 0.41714285714285715,
+    "f1": 0.23643724696356272
+   },
+   "delta_recall": -0.3209675061803715,
+   "delta_precision": -0.022328149978200817
+  },
+  "yolov10": {
+   "paper_augmented": {
+    "recall": 0.42857142857142855,
+    "precision": 0.6185064935064936,
+    "f1": 0.506312292358804
+   },
+   "this_unaugmented": {
+    "recall": 0.0903954802259887,
+    "precision": 0.43956043956043955,
+    "f1": 0.14995313964386126
+   },
+   "delta_recall": -0.33817594834543985,
+   "delta_precision": -0.178946053946054
+  }
+ }
+}

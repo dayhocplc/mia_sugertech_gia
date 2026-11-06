@@ -1,0 +1,57 @@
+{
+  "faster_rcnn": {
+    "params": 41300186,
+    "gmacs_median": 206.1662208,
+    "gflops_median": 412.3324416,
+    "flops_tool": "fvcore.FlopCountAnalysis (đếm MAC)",
+    "gflops_n_images": 10,
+    "label": "Faster R-CNN",
+    "imgsz": 1024,
+    "peak_vram_mb": 805.82568359375,
+    "weights_mb": 471.5130500793457
+  },
+  "mask_rcnn": {
+    "params": 43923420,
+    "gmacs_median": 225.191755776,
+    "gflops_median": 450.383511552,
+    "flops_tool": "fvcore.FlopCountAnalysis (đếm MAC)",
+    "gflops_n_images": 10,
+    "label": "Mask R-CNN",
+    "imgsz": 1024,
+    "peak_vram_mb": 1375.07568359375,
+    "weights_mb": 501.5480537414551
+  },
+  "retinanet": {
+    "params": 36297462,
+    "gmacs_median": 204.40989696,
+    "gflops_median": 408.81979392,
+    "flops_tool": "fvcore.FlopCountAnalysis (đếm MAC)",
+    "gflops_n_images": 10,
+    "label": "RetinaNet",
+    "imgsz": 1024,
+    "peak_vram_mb": 610.470703125,
+    "weights_mb": 414.26794815063477
+  },
+  "yolov8_seg": {
+    "params": 11790870,
+    "gmacs_median": 20.085683200000002,
+    "gflops_median": 40.171366400000004,
+    "flops_tool": "ultralytics.model.info / thop (GFLOPs = 2 × MAC)",
+    "gflops_n_images": null,
+    "label": "YOLOv8-seg",
+    "imgsz": 640,
+    "peak_vram_mb": 392.45849609375,
+    "weights_mb": 22.75211811065674
+  },
+  "yolov10": {
+    "params": 8067900,
+    "gmacs_median": 12.384691199999999,
+    "gflops_median": 24.769382399999998,
+    "flops_tool": "ultralytics.model.info / thop (GFLOPs = 2 × MAC)",
+    "gflops_n_images": null,
+    "label": "YOLOv10",
+    "imgsz": 640,
+    "peak_vram_mb": 392.58447265625,
+    "weights_mb": 15.763239860534668
+  }
+}

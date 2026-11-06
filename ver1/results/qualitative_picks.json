@@ -1,0 +1,9 @@
+{
+ "shared_images": {
+  "123": [
+   "Faster R-CNN",
+   "RetinaNet"
+  ]
+ },
+ "n_panels_per_model": 2
+}

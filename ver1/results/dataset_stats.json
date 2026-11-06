@@ -1,0 +1,119 @@
+{
+  "bbox": {
+    "train": {
+      "images": 2892,
+      "instances_per_image": 10.95,
+      "weed_area_pct_median": 1.302,
+      "source_images": 964,
+      "instances": {
+        "sugarcane": 9933,
+        "weed": 21739
+      },
+      "instances_total": 31672,
+      "image_sizes": [
+        "1280x1280"
+      ]
+    },
+    "valid": {
+      "images": 123,
+      "instances_per_image": 11.05,
+      "weed_area_pct_median": 1.58,
+      "source_images": 123,
+      "instances": {
+        "sugarcane": 352,
+        "weed": 1007
+      },
+      "instances_total": 1359,
+      "image_sizes": [
+        "1280x1280"
+      ]
+    },
+    "test": {
+      "images": 124,
+      "instances_per_image": 10.64,
+      "weed_area_pct_median": 1.38,
+      "source_images": 124,
+      "instances": {
+        "sugarcane": 425,
+        "weed": 894
+      },
+      "instances_total": 1319,
+      "image_sizes": [
+        "1280x1280"
+      ]
+    },
+    "_total": {
+      "images": 3139,
+      "source_images": 1211,
+      "instances_total": 34350,
+      "split_ratio": [
+        0.9213,
+        0.0392,
+        0.0395
+      ],
+      "root": "/home/thanhtran/Gia-mia/mia/TayNinh/Picture and Video/Dataset_Bounding_Box"
+    }
+  },
+  "polygon": {
+    "train": {
+      "images": 1212,
+      "instances_per_image": 25.23,
+      "weed_area_pct_median": 0.308,
+      "source_images": 404,
+      "instances": {
+        "sugarcane": 10306,
+        "weed": 20269
+      },
+      "instances_total": 30575,
+      "image_sizes": [
+        "1280x1280"
+      ]
+    },
+    "valid": {
+      "images": 50,
+      "instances_per_image": 26.76,
+      "weed_area_pct_median": 0.315,
+      "source_images": 50,
+      "instances": {
+        "sugarcane": 403,
+        "weed": 935
+      },
+      "instances_total": 1338,
+      "image_sizes": [
+        "1280x1280"
+      ]
+    },
+    "test": {
+      "images": 50,
+      "instances_per_image": 29.34,
+      "weed_area_pct_median": 0.312,
+      "source_images": 50,
+      "instances": {
+        "sugarcane": 396,
+        "weed": 1071
+      },
+      "instances_total": 1467,
+      "image_sizes": [
+        "1280x1280"
+      ]
+    },
+    "_total": {
+      "images": 1312,
+      "source_images": 504,
+      "instances_total": 33380,
+      "split_ratio": [
+        0.9238,
+        0.0381,
+        0.0381
+      ],
+      "root": "/home/thanhtran/Gia-mia/mia/TayNinh/Picture and Video/Dataset_Polygon"
+    }
+  },
+  "_combined": {
+    "source_images_union": 1363,
+    "source_images_shared": 352,
+    "source_images_bbox_only": 859,
+    "source_images_polygon_only": 152,
+    "instances_total": 67730
+  }
+}

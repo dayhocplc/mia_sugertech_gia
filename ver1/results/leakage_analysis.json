@@ -1,0 +1,6192 @@
+{
+ "capture_days": {
+  "2025-03-20": 1210
+ },
+ "capture_window": {
+  "start": "2025-03-20 09:09:15",
+  "end": "2025-03-20 13:44:42",
+  "span_hours": 4.590833333333333
+ },
+ "n_source_images": 1211,
+ "n_with_timestamp": 1210,
+ "consecutive_gap_s": {
+  "median": 2.0,
+  "le_2s": 646,
+  "le_5s": 1120,
+  "n_pairs": 1209
+ },
+ "test_to_train_distance_s": {
+  "median": 3.0,
+  "le_2s": 60,
+  "le_5s": 113,
+  "le_30s": 124,
+  "n_test": 124
+ },
+ "bursts": {
+  "gap_threshold_s": 30,
+  "n_bursts": 27,
+  "n_bursts_spanning_splits": 21
+ },
+ "image_clusters": {
+  "IMG_20250320_092229": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132204": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100802": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091855": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091306": {
+   "burst": 1,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092051": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092118": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092257": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092602": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091733": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST114": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_131952": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100926": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST55": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_133407": {
+   "burst": 22,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092341": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092306": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101416": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092720": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103404": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092624": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST45": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103649": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST209": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101222": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST8": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092235": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST212": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091535": {
+   "burst": 2,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101412": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101314": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102653": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST243": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132033": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091713": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST120": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101107": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091520": {
+   "burst": 2,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST10": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101345": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092714": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "20250320_092252": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100030": {
+   "burst": 9,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101140": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091237": {
+   "burst": 1,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132346": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_095934": {
+   "burst": 9,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101113": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103613": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST160": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST63": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102628": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101358": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132438": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST32": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103657": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST218": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST56": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132336": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132321": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "20250320_092123": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "20250320_092454": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132048": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132350": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100759": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103316": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102844": {
+   "burst": 14,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101325": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101155": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102706": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST14": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_133141": {
+   "burst": 21,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092738": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103241": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091720": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092125": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST196": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132328": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST71": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST22": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_131758": {
+   "burst": 19,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132131": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092011": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132355": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101014": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092916": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093529": {
+   "burst": 8,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "20250320_092444": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST36": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132221": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092605": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST92": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091150": {
+   "burst": 1,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100640": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST175": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091829": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100815": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132427": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST189": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100008": {
+   "burst": 9,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102743": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132345": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "20250320_092305": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST142": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132227": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102736": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST82": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092309": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_095942": {
+   "burst": 9,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST173": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101418": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103503": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093231": {
+   "burst": 6,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132426": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132357": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST123": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103413": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091842": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091517": {
+   "burst": 2,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132347": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132226": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101407": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100614": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103253": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103407": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST133": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132304": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132138": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST69": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST180": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST179": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST195": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST129": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST186": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132037": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102753": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092527": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102803": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103641": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132233": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103706": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102703": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST13": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101208": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132015": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_095958": {
+   "burst": 9,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092741": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100702": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103400": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102807": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_105128_TIMEBURST6": {
+   "burst": 18,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092726": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST101": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091746": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092352": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132149": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100649": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102847": {
+   "burst": 14,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101257": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101328": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092711": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132154": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101343": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST89": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_091614": {
+   "burst": 2,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST228": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103639": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_091314": {
+   "burst": 1,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100653": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100827": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST86": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST88": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132147": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_095924": {
+   "burst": 9,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101027": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092054": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132325": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100931": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132346_1": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132135": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103339": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091743": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102623": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091109": {
+   "burst": 1,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091726": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "20250320_092134": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "20250320_092708": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST152": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093209": {
+   "burst": 6,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132333": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132146": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092729": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "20250320_092342": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST159": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132001": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132012": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100707": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092312": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101431": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_095927": {
+   "burst": 9,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092919": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST85": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092656": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST24": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST35": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_092238": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091915": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100632": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092543": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103529": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091538": {
+   "burst": 2,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103603": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_131822": {
+   "burst": 19,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092850": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132123": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103415": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092832": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091832": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102800": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132139": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103222": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103709": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103619": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132039": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132036": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST87": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_092350": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092922": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101001": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092702": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "20250320_092435": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103541": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092418": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132503": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST145": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101241": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_092240": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132504": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101341": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092339": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "20250320_092441": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST97": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132035": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093535": {
+   "burst": 8,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101009": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100003": {
+   "burst": 9,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132153": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101040": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092550": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092906": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093547": {
+   "burst": 8,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_090941": {
+   "burst": 0,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101443": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092838": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093320": {
+   "burst": 7,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_134232": {
+   "burst": 24,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100602": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_095955": {
+   "burst": 9,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132234": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092925": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132459": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103623": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132030": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092032": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101134": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092747": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092530": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091902": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_133240": {
+   "burst": 22,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_131926": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST200": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092241": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092524": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST66": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132143": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST247": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103524": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103410": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST148": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_131931": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101148": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091750": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132032": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132127": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST48": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103545": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092330": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST238": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100933": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103217": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132239": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST202": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102643": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST43": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092931": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST77": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132136": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101216": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093004": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST40": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100552": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101405": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092121": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST141": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132024": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091959": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST84": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST229": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093246": {
+   "burst": 6,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100536": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102639": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST132": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132258": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091816": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092108": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101109": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091819": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104235_TIMEBURST3": {
+   "burst": 16,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092732": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST246": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100902": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092708": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132159": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132224": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101350": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092608": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101115": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103301": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_092451": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST50": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103225": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST153": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_092522": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132152": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103244": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091202": {
+   "burst": 1,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101424": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103347": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092315": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101403": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101042": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092407": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101339": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103448": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132102": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103212": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST75": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_131949": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091612": {
+   "burst": 2,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101103": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101053": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092847": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101118": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101251": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091547": {
+   "burst": 2,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST187": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092035": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101300": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_134223": {
+   "burst": 24,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100924": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101128": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091954": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092421": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100939": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST230": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_134221": {
+   "burst": 24,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091825": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST177": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST70": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132415": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103722": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100644": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092038": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132256": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092705": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092553": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132051": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST108": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103610": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092139": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103700": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101006": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092358": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101353": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132318": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093335": {
+   "burst": 7,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST146": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092506": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102651": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST65": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092723": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132040": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST23": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093055": {
+   "burst": 5,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132332": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST182": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST102": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST6": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092754": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "20250320_092425": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132335": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "20250320_092753": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100922": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_133306": {
+   "burst": 22,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_131930": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101226": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132129": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092008": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101352": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092002": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092928": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST214": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132458": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092653": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092321": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "20250320_092232": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092023": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101144": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091736": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "20250320_092312": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100845": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092934": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100523": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100856": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132342": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST76": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092146": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101003": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092412": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132352": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST239": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091928": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101111": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091542": {
+   "burst": 2,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132316": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132021": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "20250320_092541": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101038": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092546": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100808": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_134332": {
+   "burst": 25,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST185": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092005": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101434": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102618": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101104": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_090948": {
+   "burst": 0,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092333": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132238": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_134322": {
+   "burst": 25,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091729": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST29": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092026": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST41": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_092405": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST83": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092633": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST178": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103726": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092209": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_131817": {
+   "burst": 19,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091615": {
+   "burst": 2,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091852": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102849": {
+   "burst": 14,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103352": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST162": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091527": {
+   "burst": 2,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101308": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092859": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100944": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092903": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST62": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100756": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_091624": {
+   "burst": 2,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132206": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "20250320_092258": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093338": {
+   "burst": 7,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132314": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093200": {
+   "burst": 6,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101100": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101445": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132231": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_105128_TIMEBURST4": {
+   "burst": 18,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST109": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST215": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103652": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101401": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100623": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091603": {
+   "burst": 2,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100942": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST1": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST57": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST236": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101125": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092556": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103159": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092115": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST106": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093550": {
+   "burst": 8,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132250": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST73": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092409": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093611": {
+   "burst": 8,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST104": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100859": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091224": {
+   "burst": 1,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102720": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092503": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093214": {
+   "burst": 6,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST240": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_092318": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091344": {
+   "burst": 1,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103536": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093051": {
+   "burst": 5,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100953": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101030": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST151": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132020": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092957": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101310": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132200": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "20250320_092738": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103418": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092017": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101348": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_092118": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_095930": {
+   "burst": 9,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST198": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132253": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132430": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101357": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092154": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093532": {
+   "burst": 8,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST80": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_092324": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100022": {
+   "burst": 9,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_105128_TIMEBURST9": {
+   "burst": 18,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101034": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST221": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST156": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092042": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST112": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103549": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST49": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101409": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_131752": {
+   "burst": 19,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132130": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102620": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST126": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST167": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST140": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_092421": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092735": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100946": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132513": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092912": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST67": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_131939": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102852": {
+   "burst": 14,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101322": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132243": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST79": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092750": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST197": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_092120": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132319": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101024": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103446": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091839": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092614": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132334": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST143": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091909": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093553": {
+   "burst": 8,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092427": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092658": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100928": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102626": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST201": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132018": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST95": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091058": {
+   "burst": 1,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092515": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132330": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103251": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101248": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132133": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101048": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091505": {
+   "burst": 2,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092611": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101446": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST216": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103731": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_092334": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST53": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102854": {
+   "burst": 14,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103628": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST227": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092020": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092148": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132017": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092415": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST31": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092518": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102717": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_092432": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092304": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092151": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092453": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132054": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST51": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_092302": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100822": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092346": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103625": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_131809": {
+   "burst": 19,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100852": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_131956": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "20250320_092835": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092940": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST118": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103728": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103543": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_092438": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092327": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100752": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132103": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "20250320_092321": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093349": {
+   "burst": 7,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101019": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST157": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST42": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100811": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_131954": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST164": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103608": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101331": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132029": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST235": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101131": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091800": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092500": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_105128_TIMEBURST1": {
+   "burst": 18,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132151": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_133338": {
+   "burst": 22,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101235": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101051": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_133428": {
+   "burst": 22,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_131804": {
+   "burst": 19,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091918": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092424": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091002": {
+   "burst": 0,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091052": {
+   "burst": 1,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103748": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103526": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091600": {
+   "burst": 2,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101420": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102635": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092217": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092104": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132042": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102746": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092336": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092841": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092206": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132229": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST130": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST170": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093041": {
+   "burst": 5,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101429": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_090957": {
+   "burst": 0,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091138": {
+   "burst": 1,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102751": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102648": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091934": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091905": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103220": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092057": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132300": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104235_TIMEBURST8": {
+   "burst": 16,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091551": {
+   "burst": 2,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132223": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST116": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101058": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST234": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST138": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST61": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103451": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST117": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103754": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_131801": {
+   "burst": 19,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103637": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST11": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST105": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST245": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091322": {
+   "burst": 1,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132157": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101334": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103206": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092355": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103703": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132144": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092856": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST210": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102857": {
+   "burst": 14,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092324": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101055": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092950": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101152": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100819": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103357": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091804": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST15": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101437": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST21": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092221": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091931": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_134432": {
+   "burst": 26,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132124": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "20250320_092402": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093150": {
+   "burst": 6,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_134228": {
+   "burst": 24,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092844": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091849": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102722": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101137": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092238": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092512": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_131941": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091754": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102655": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_134225": {
+   "burst": 24,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST168": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092029": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST94": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103751": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093608": {
+   "burst": 8,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091454": {
+   "burst": 2,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093219": {
+   "burst": 6,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "20250320_092316": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092457": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093148": {
+   "burst": 6,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091120": {
+   "burst": 1,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093545": {
+   "burst": 8,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104235_TIMEBURST6": {
+   "burst": 16,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091510": {
+   "burst": 2,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102900": {
+   "burst": 14,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103547": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103643": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST165": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132509": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100018": {
+   "burst": 9,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST232": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132329": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091513": {
+   "burst": 2,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_133348": {
+   "burst": 22,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092909": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092111": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "20250320_092416": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091912": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST37": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_092728": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST19": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_131812": {
+   "burst": 19,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "20250320_092356": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091125": {
+   "burst": 1,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092158": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092540": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132439": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST59": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103538": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103257": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092227": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102748": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST226": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_133254": {
+   "burst": 22,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101036": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092401": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132155": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST93": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091717": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST16": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091313": {
+   "burst": 1,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093332": {
+   "burst": 7,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102659": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103325": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_090922": {
+   "burst": 0,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103745": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101422": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103333": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132302": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "20250320_092547": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092620": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103259": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101212": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101032": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST98": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST52": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST207": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091858": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091925": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST161": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_092250": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST33": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101044": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST4": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST115": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091446": {
+   "burst": 2,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092247": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_131750": {
+   "burst": 19,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092014": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132114": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST220": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST223": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132443": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132022": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102649": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST203": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092129": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103309": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093352": {
+   "burst": 7,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST47": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102641": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092627": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST166": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092135": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091846": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101237": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093326": {
+   "burst": 7,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132013": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_131944": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102637": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091523": {
+   "burst": 2,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST5": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093355": {
+   "burst": 7,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103630": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST72": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092100": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_131815": {
+   "burst": 19,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100119": {
+   "burst": 10,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093212": {
+   "burst": 6,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_133519": {
+   "burst": 23,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092509": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101232": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST149": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101414": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091530": {
+   "burst": 2,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101245": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091103": {
+   "burst": 1,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST58": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103313": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_133440": {
+   "burst": 22,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102725": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_133223": {
+   "burst": 22,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103155": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092835": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092853": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093008": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "20250320_092413": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093526": {
+   "burst": 8,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092232": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132457": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101355": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_091317": {
+   "burst": 1,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103605": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100937": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132228": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "20250320_092500": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_131755": {
+   "burst": 19,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST211": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102708": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST241": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_092309": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091724": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103534": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093223": {
+   "burst": 6,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_095949": {
+   "burst": 9,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100015": {
+   "burst": 9,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST171": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST20": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132245": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_090915": {
+   "burst": 0,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092344": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103742": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091336": {
+   "burst": 1,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101440": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100111": {
+   "burst": 10,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_092428": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST28": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132338": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132142": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_134442": {
+   "burst": 26,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST99": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_105128_TIMEBURST5": {
+   "burst": 18,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103236": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102633": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103455": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092224": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST121": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_133343": {
+   "burst": 22,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101159": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103350": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092318": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST144": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092630": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "20250320_092246": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_133324": {
+   "burst": 22,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092521": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104235_TIMEBURST5": {
+   "burst": 16,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102646": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101254": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093329": {
+   "burst": 7,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132057": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST9": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_133225": {
+   "burst": 22,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_131937": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "20250320_092338": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132508": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103511": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132348": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132354": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "20250320_092447": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100949": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132336_1": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST222": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100658": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST233": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092954": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100610": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093154": {
+   "burst": 6,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100805": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093229": {
+   "burst": 6,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092450": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132237": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST199": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST213": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST131": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103402": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103248": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_134325": {
+   "burst": 25,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_102739": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_101306": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091822": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST169": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103209": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093157": {
+   "burst": 6,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST64": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091922": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092142": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132502": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092253": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103717": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "20250320_092457": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_100520": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091557": {
+   "burst": 2,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_095920": {
+   "burst": 9,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092301": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_092617": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104352_TIMEBURST54": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_093358": {
+   "burst": 7,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_132108": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "train"
+  },
+  "IMG_20250320_104235_TIMEBURST10": {
+   "burst": 16,
+   "session": "10h (60-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_091739": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "train"
+  },
+  "IMG_20250320_103724": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_131819": {
+   "burst": 19,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_102715": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104235_TIMEBURST4": {
+   "burst": 16,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST188": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_103442": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_102630": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_103634": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_133252": {
+   "burst": 22,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_132249": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST237": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_132140": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST18": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST206": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_132236": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST190": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST193": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_132008": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST68": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_102758": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_105128_TIMEBURST7": {
+   "burst": 18,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_103735": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_131934": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST127": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST17": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_132112": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_133403": {
+   "burst": 22,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST44": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST219": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_131811": {
+   "burst": 19,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST91": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_133244": {
+   "burst": 22,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST46": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_134433": {
+   "burst": 26,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_103617": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_103621": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_132156": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_103319": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_132045": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_131948": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_131942": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST60": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_103614": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST113": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST30": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_132006": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST25": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_103231": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_103532": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_132126": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST249": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST154": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_103556": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_102657": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_132230": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104235_TIMEBURST9": {
+   "burst": 16,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST96": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST225": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST191": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_131927": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST122": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_132027": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_103632": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST192": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST12": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST172": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST137": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST81": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST90": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_103227": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST134": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST174": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_131946": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST248": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST204": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST26": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_132120": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_132049": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_132111": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_134328": {
+   "burst": 25,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST135": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST34": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_103551": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST208": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST74": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST150": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_132043": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_134330": {
+   "burst": 25,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST155": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_132010": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_132241": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST110": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST244": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_134336": {
+   "burst": 25,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST181": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST38": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST103": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_132053": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_102710": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104235_TIMEBURST7": {
+   "burst": 16,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_103505": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_102729": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_105128_TIMEBURST8": {
+   "burst": 18,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST119": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_103520": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST139": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_131959": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST111": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST7": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST250": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104235_TIMEBURST2": {
+   "burst": 16,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_134350": {
+   "burst": 25,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_103202": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST124": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_132047": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST163": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST158": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_102732": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST205": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST136": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104235_TIMEBURST1": {
+   "burst": 16,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_104352_TIMEBURST100": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_132158": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "valid"
+  },
+  "IMG_20250320_100527": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100627": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_095938": {
+   "burst": 9,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_101410": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_131806": {
+   "burst": 19,
+   "session": "13h (mixed plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100848": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_133221": {
+   "burst": 22,
+   "session": "13h (mixed plot)",
+   "split": "test"
+  },
+  "IMG_20250320_093342": {
+   "burst": 7,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_093217": {
+   "burst": 6,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_104352_TIMEBURST128": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_102712": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_103234": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_103355": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100911": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_103214": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_104352_TIMEBURST217": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_103646": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_134327": {
+   "burst": 25,
+   "session": "13h (mixed plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100034": {
+   "burst": 9,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_132105": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "test"
+  },
+  "IMG_20250320_104352_TIMEBURST27": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100905": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100108": {
+   "burst": 10,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100908": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_102701": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100636": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_104352_TIMEBURST3": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100958": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_104352_TIMEBURST2": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_093323": {
+   "burst": 7,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_092717": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_101011": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100122": {
+   "burst": 10,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100919": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_104352_TIMEBURST183": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_093237": {
+   "burst": 6,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100913": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_105128_TIMEBURST10": {
+   "burst": 18,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100618": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100605": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_101021": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_134341": {
+   "burst": 25,
+   "session": "13h (mixed plot)",
+   "split": "test"
+  },
+  "IMG_20250320_104352_TIMEBURST184": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_101303": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_103522": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_103304": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_104352_TIMEBURST125": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_103635": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_132109": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "test"
+  },
+  "IMG_20250320_104352_TIMEBURST107": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_104352_TIMEBURST224": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_105128_TIMEBURST2": {
+   "burst": 18,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_131803": {
+   "burst": 19,
+   "session": "13h (mixed plot)",
+   "split": "test"
+  },
+  "IMG_20250320_104352_TIMEBURST176": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_103553": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100531": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_132132": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "test"
+  },
+  "IMG_20250320_092744": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100114": {
+   "burst": 10,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_104352_TIMEBURST194": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_092045": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100026": {
+   "burst": 9,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_103255": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_093542": {
+   "burst": 8,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_091757": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_102810": {
+   "burst": 13,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_092943": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_101400": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_103330": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_093226": {
+   "burst": 6,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_101046": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_103508": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_132122": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "test"
+  },
+  "IMG_20250320_092250": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_101229": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_104352_TIMEBURST147": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_091836": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_134400": {
+   "burst": 25,
+   "session": "13h (mixed plot)",
+   "split": "test"
+  },
+  "IMG_20250320_131807": {
+   "burst": 19,
+   "session": "13h (mixed plot)",
+   "split": "test"
+  },
+  "IMG_20250320_092536": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_092404": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_101427": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_104352_TIMEBURST242": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100012": {
+   "burst": 9,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_104352_TIMEBURST39": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100955": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100837": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_093243": {
+   "burst": 6,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_132026": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100916": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_093001": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_101219": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100547": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_092559": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_101016": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_103459": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_092202": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_132100": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100951": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_133516": {
+   "burst": 23,
+   "session": "13h (mixed plot)",
+   "split": "test"
+  },
+  "IMG_20250320_092947": {
+   "burst": 4,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_104352_TIMEBURST78": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_132153_1": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100557": {
+   "burst": 11,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100935": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_101337": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100833": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_093240": {
+   "burst": 6,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_092533": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_092048": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_091609": {
+   "burst": 2,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_105128_TIMEBURST3": {
+   "burst": 18,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_092244": {
+   "burst": 3,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100037": {
+   "burst": 9,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_103720": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_104352_TIMEBURST231": {
+   "burst": 17,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_132242": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "test"
+  },
+  "IMG_20250320_103239": {
+   "burst": 15,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_132246": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "test"
+  },
+  "IMG_20250320_101347": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_093234": {
+   "burst": 6,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_093538": {
+   "burst": 8,
+   "session": "09h (40-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_100829": {
+   "burst": 12,
+   "session": "10h (60-day plot)",
+   "split": "test"
+  },
+  "IMG_20250320_132004": {
+   "burst": 20,
+   "session": "13h (mixed plot)",
+   "split": "test"
+  }
+ },
+ "metrics_by_isolation": {},
+ "augmentation": {
+  "n_source_images": 964,
+  "versions_per_source": {
+   "3": 964
+  },
+  "n_sources_count_differs": 226,
+  "pct_sources_count_differs": 23.443983402489625,
+  "total_train_instances": 31672,
+  "divisible_by_3": false
+ },
+ "capture_date": "2025-03-20",
+ "sessions_desc": "09:09–09:59, 10:00–10:51, 13:17–13:44",
+ "session_counts": {
+  "09h (40-day plot)": 363,
+  "10h (60-day plot)": 627,
+  "13h (mixed plot)": 220
+ },
+ "frame_overlap": {
+  "adjacent_max_s": 5,
+  "far_min_s": 600,
+  "n_adjacent": 60,
+  "n_far": 60,
+  "adjacent_median": 0.005666666666666667,
+  "far_median": 0.005333333333333333,
+  "adjacent_gt_005": 4,
+  "far_gt_005": 0,
+  "adjacent_gt_015": 0,
+  "far_gt_015": 0
+ },
+ "sessions": {
+  "09h (40-day plot)": {
+   "n_train": 335,
+   "n_valid": 0,
+   "n_test": 28,
+   "n_test_images": 28,
+   "models": {
+    "faster_rcnn": {
+     "precision": 0.5078543191872348,
+     "recall": 0.3652173913043478,
+     "f1": 0.4247264054206468,
+     "n_runs": 5
+    },
+    "retinanet": {
+     "precision": 0.47119164249182766,
+     "recall": 0.39829192546583847,
+     "f1": 0.43163665641926513,
+     "n_runs": 4
+    },
+    "yolov10": {
+     "precision": 0.629026137880311,
+     "recall": 0.3565217391304348,
+     "f1": 0.4546832687059753,
+     "n_runs": 5
+    }
+   }
+  },
+  "10h (60-day plot)": {
+   "n_train": 462,
+   "n_valid": 87,
+   "n_test": 78,
+   "n_test_images": 78,
+   "models": {
+    "faster_rcnn": {
+     "precision": 0.5060794951978977,
+     "recall": 0.5979797979797981,
+     "f1": 0.5481793096175308,
+     "n_runs": 5
+    },
+    "retinanet": {
+     "precision": 0.44558245668134616,
+     "recall": 0.6123737373737373,
+     "f1": 0.5158158190853023,
+     "n_runs": 4
+    },
+    "yolov10": {
+     "precision": 0.5936904016513191,
+     "recall": 0.451010101010101,
+     "f1": 0.5123769615903175,
+     "n_runs": 5
+    }
+   }
+  },
+  "13h (mixed plot)": {
+   "n_train": 166,
+   "n_valid": 36,
+   "n_test": 18,
+   "n_test_images": 18,
+   "models": {
+    "faster_rcnn": {
+     "precision": 0.45972429774165996,
+     "recall": 0.42386363636363633,
+     "f1": 0.4409008129617774,
+     "n_runs": 5
+    },
+    "retinanet": {
+     "precision": 0.3671859006216101,
+     "recall": 0.4375,
+     "f1": 0.3987741031438108,
+     "n_runs": 4
+    },
+    "yolov10": {
+     "precision": 0.5173013986844485,
+     "recall": 0.3022727272727273,
+     "f1": 0.38137021584559216,
+     "n_runs": 5
+    }
+   }
+  }
+ }
+}

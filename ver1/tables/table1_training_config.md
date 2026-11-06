@@ -1,0 +1,12 @@
+| Setting | Faster R-CNN | Mask R-CNN | RetinaNet | YOLOv8-seg | YOLOv10 |
+|---|---|---|---|---|---|
+| Framework | Detectron2, PyTorch, CUDA 11.8 | Detectron2, PyTorch, CUDA 11.8 | Detectron2, PyTorch, CUDA 11.8 | Ultralytics | Ultralytics |
+| Backbone | ResNet-50 + FPN | ResNet-50 + FPN | ResNet-50 + FPN | yolov8s-seg | yolov10s |
+| Image size (px) | 1024 × 1024 | 1024 × 1024 | 1024 × 1024 | 640 × 640 | 640 × 640 |
+| Batch size | 16 | 16 | 16 | 16 | 16 |
+| Epochs | 50 | 50 | 50 | 50 | 50 |
+| Label format | .json | .json | .json | .txt | .txt |
+| Annotation | bbox | polygon | bbox | polygon | bbox |
+| Learning rate | 0.001 (AdamW, cosine annealing) | 0.001 (AdamW, cosine annealing) | 0.001 (AdamW, cosine annealing) | 0.001 (AdamW, cosine annealing) | 0.001 (AdamW, cosine annealing) |
+| Training images | 2892 | 1212 | 2892 | 1212 | 2892 |
+| Test images | 124 | 50 | 124 | 50 | 124 |

@@ -1,0 +1,194 @@
+{
+ "conf": 0.3,
+ "iou": 0.5,
+ "n_test_images": 124,
+ "note": "C1 b\u1ecf ph\u1ea7n \u0111\u1ebfm tr\u00f9ng c\u1ee7a c\u00e1c h\u1ed9p ch\u1ed3ng nhau; C2 \u0111o pixel c\u1ecf th\u1eadt tr\u00ean ph\u1ea7n t\u1eadp test c\u00f3 nh\u00e3n polygon; C3 t\u00ednh theo \u00f4 l\u01b0\u1edbi \u0111\u1ec3 m\u00f4 ph\u1ecfng v\u00f9ng b\u00e9c phun. \u00d4 l\u01b0\u1edbi t\u00ednh theo ph\u1ea7n b\u1ec1 ngang khung h\u00ecnh v\u00ec b\u00e0i kh\u00f4ng \u0111o t\u1ea7m ph\u1ee7 m\u1eb7t \u0111\u1ea5t c\u1ee7a khung h\u00ecnh.",
+ "union_area_recall": {
+  "faster_rcnn": {
+   "mean": 0.63569465521637,
+   "sd": 0.008998919331031393,
+   "n_runs": 5
+  },
+  "retinanet": {
+   "mean": 0.6720052468792771,
+   "sd": 0.026005901563948164,
+   "n_runs": 4
+  },
+  "yolov10": {
+   "mean": 0.4974085319090518,
+   "sd": 0.0120269363560534,
+   "n_runs": 5
+  }
+ },
+ "pixel_coverage": {
+  "n_images": 26,
+  "models": {
+   "faster_rcnn": {
+    "pixel_coverage_recall": {
+     "mean": 0.7033912922866079,
+     "sd": 0.009467075818442439
+    },
+    "box_area_recall_same_images": {
+     "mean": 0.7988454889572851,
+     "sd": 0.014687224837647037
+    },
+    "n_runs": 5
+   },
+   "retinanet": {
+    "pixel_coverage_recall": {
+     "mean": 0.7200766805439681,
+     "sd": 0.02064141566031015
+    },
+    "box_area_recall_same_images": {
+     "mean": 0.8241859134140221,
+     "sd": 0.013633319212655084
+    },
+    "n_runs": 4
+   },
+   "yolov10": {
+    "pixel_coverage_recall": {
+     "mean": 0.5791033924516038,
+     "sd": 0.023736800461079424
+    },
+    "box_area_recall_same_images": {
+     "mean": 0.7057847772360131,
+     "sd": 0.014102590605151101
+    },
+    "n_runs": 5
+   }
+  }
+ },
+ "box_area_coverage_all_images": {
+  "faster_rcnn": {
+   "mean": 0.7740142896729316,
+   "sd": 0.008095892256621776,
+   "n_runs": 5
+  },
+  "retinanet": {
+   "mean": 0.8202006583355059,
+   "sd": 0.009618504853789634,
+   "n_runs": 4
+  },
+  "yolov10": {
+   "mean": 0.5756316515782245,
+   "sd": 0.021231659413078096,
+   "n_runs": 5
+  }
+ },
+ "grid_recall": {
+  "0.25": {
+   "cell_fraction_of_frame_width": 0.25,
+   "models": {
+    "faster_rcnn": {
+     "cell_recall": {
+      "mean": 0.899903381642512,
+      "sd": 0.008467208618437338
+     },
+     "cell_precision": {
+      "mean": 0.8847003790013732,
+      "sd": 0.006457716041509208
+     },
+     "n_runs": 5
+    },
+    "retinanet": {
+     "cell_recall": {
+      "mean": 0.9091787439613527,
+      "sd": 0.012297509238026907
+     },
+     "cell_precision": {
+      "mean": 0.8619135583493079,
+      "sd": 0.010817981675323335
+     },
+     "n_runs": 4
+    },
+    "yolov10": {
+     "cell_recall": {
+      "mean": 0.7607729468599034,
+      "sd": 0.008818244799307911
+     },
+     "cell_precision": {
+      "mean": 0.9145812340040156,
+      "sd": 0.005730203175287039
+     },
+     "n_runs": 5
+    }
+   }
+  },
+  "0.125": {
+   "cell_fraction_of_frame_width": 0.125,
+   "models": {
+    "faster_rcnn": {
+     "cell_recall": {
+      "mean": 0.8662887629209737,
+      "sd": 0.008762042909950607
+     },
+     "cell_precision": {
+      "mean": 0.8555130557399793,
+      "sd": 0.0039441520095527885
+     },
+     "n_runs": 5
+    },
+    "retinanet": {
+     "cell_recall": {
+      "mean": 0.8857119039679894,
+      "sd": 0.007551738447090263
+     },
+     "cell_precision": {
+      "mean": 0.8254983086421527,
+      "sd": 0.005481850169991624
+     },
+     "n_runs": 4
+    },
+    "yolov10": {
+     "cell_recall": {
+      "mean": 0.6848282760920308,
+      "sd": 0.018057488786080017
+     },
+     "cell_precision": {
+      "mean": 0.8784260422707059,
+      "sd": 0.0035745701170165197
+     },
+     "n_runs": 5
+    }
+   }
+  },
+  "0.0625": {
+   "cell_fraction_of_frame_width": 0.0625,
+   "models": {
+    "faster_rcnn": {
+     "cell_recall": {
+      "mean": 0.833072696534235,
+      "sd": 0.009057346373146825
+     },
+     "cell_precision": {
+      "mean": 0.8371698282214819,
+      "sd": 0.002868242534015623
+     },
+     "n_runs": 5
+    },
+    "retinanet": {
+     "cell_recall": {
+      "mean": 0.8644072273879967,
+      "sd": 0.007512461659737827
+     },
+     "cell_precision": {
+      "mean": 0.7991330571068329,
+      "sd": 0.006464085975528961
+     },
+     "n_runs": 4
+    },
+    "yolov10": {
+     "cell_recall": {
+      "mean": 0.6315088757396449,
+      "sd": 0.016870074525637935
+     },
+     "cell_precision": {
+      "mean": 0.8586638377884874,
+      "sd": 0.003112409287107779
+     },
+     "n_runs": 5
+    }
+   }
+  }
+ }
+}

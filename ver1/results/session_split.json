@@ -1,0 +1,333 @@
+{
+ "conf": 0.3,
+ "iou": 0.5,
+ "valid_fraction": 0.1,
+ "note": "Mỗi ảnh gốc một bản, không dùng bản tăng cường, nên con số tuyệt đối thấp hơn trong bài; chỉ hiệu giữa grouped và control có nghĩa.",
+ "session_sizes": {
+  "09": 363,
+  "10": 627,
+  "13": 220
+ },
+ "folds": {
+  "ctl09": {
+   "condition": "random",
+   "held_out_session": null,
+   "n_train": 762,
+   "n_test": 363,
+   "models": {
+    "faster_rcnn": {
+     "weed_precision": 0.45791381393475633,
+     "weed_recall": 0.4303557910673732,
+     "weed_f1": 0.44370731707317074,
+     "tp": 1137,
+     "fp": 1346,
+     "fn": 1505,
+     "AP": 22.93993849043233,
+     "AP50": 47.482838547833126
+    },
+    "retinanet": {
+     "weed_precision": 0.4269115442278861,
+     "weed_recall": 0.43111279333838004,
+     "weed_f1": 0.4290018832391714,
+     "tp": 1139,
+     "fp": 1529,
+     "fn": 1503,
+     "AP": 23.918328202675955,
+     "AP50": 49.032432939851525
+    },
+    "yolov10": {
+     "weed_precision": 0.5554026152787337,
+     "weed_recall": 0.30545041635124903,
+     "weed_f1": 0.3941391941391941,
+     "tp": 807,
+     "fp": 646,
+     "fn": 1835,
+     "AP": 22.115502995396746,
+     "AP50": 43.259121245607744
+    }
+   }
+  },
+  "ctl10": {
+   "condition": "random",
+   "held_out_session": null,
+   "n_train": 525,
+   "n_test": 627,
+   "models": {
+    "faster_rcnn": {
+     "weed_precision": 0.4625866050808314,
+     "weed_recall": 0.40977905073649756,
+     "weed_f1": 0.43458450857018877,
+     "tp": 2003,
+     "fp": 2327,
+     "fn": 2885,
+     "AP": 22.363766062095017,
+     "AP50": 45.65661994567303
+    },
+    "retinanet": {
+     "weed_precision": 0.4028819581523885,
+     "weed_recall": 0.4175531914893617,
+     "weed_f1": 0.4100863974281696,
+     "tp": 2041,
+     "fp": 3025,
+     "fn": 2847,
+     "AP": 23.55334064825615,
+     "AP50": 48.03439084123809
+    },
+    "yolov10": {
+     "weed_precision": 0.5486688851913477,
+     "weed_recall": 0.26984451718494273,
+     "weed_f1": 0.361766319253977,
+     "tp": 1319,
+     "fp": 1085,
+     "fn": 3569,
+     "AP": 20.740687616734988,
+     "AP50": 39.26299293286243
+    }
+   }
+  },
+  "ctl13": {
+   "condition": "random",
+   "held_out_session": null,
+   "n_train": 891,
+   "n_test": 220,
+   "models": {
+    "faster_rcnn": {
+     "weed_precision": 0.4769736842105263,
+     "weed_recall": 0.42874039030159666,
+     "weed_f1": 0.45157271877919647,
+     "tp": 725,
+     "fp": 795,
+     "fn": 966,
+     "AP": 22.551165849126605,
+     "AP50": 47.141945253055404
+    },
+    "retinanet": {
+     "weed_precision": 0.4331325301204819,
+     "weed_recall": 0.42519219396806623,
+     "weed_f1": 0.42912563413906296,
+     "tp": 719,
+     "fp": 941,
+     "fn": 972,
+     "AP": 23.943280975172556,
+     "AP50": 48.6278148917127
+    },
+    "yolov10": {
+     "weed_precision": 0.5541795665634675,
+     "weed_recall": 0.3175635718509758,
+     "weed_f1": 0.40375939849624065,
+     "tp": 537,
+     "fp": 432,
+     "fn": 1154,
+     "AP": 22.630620191828598,
+     "AP50": 43.9485115197069
+    }
+   }
+  },
+  "hold09": {
+   "condition": "grouped",
+   "held_out_session": "09",
+   "n_train": 762,
+   "n_test": 363,
+   "models": {
+    "faster_rcnn": {
+     "weed_precision": 0.43592613318410744,
+     "weed_recall": 0.21826842252731857,
+     "weed_f1": 0.29088872292755785,
+     "tp": 779,
+     "fp": 1008,
+     "fn": 2790,
+     "AP": 9.401253472121521,
+     "AP50": 23.077180052008302
+    },
+    "retinanet": {
+     "weed_precision": 0.42175360710321863,
+     "weed_recall": 0.21294480246567665,
+     "weed_f1": 0.28300130329547574,
+     "tp": 760,
+     "fp": 1042,
+     "fn": 2809,
+     "AP": 10.624059008767004,
+     "AP50": 25.75227110115403
+    },
+    "yolov10": {
+     "weed_precision": 0.4787788533134773,
+     "weed_recall": 0.18016251050714485,
+     "weed_f1": 0.26180781758957655,
+     "tp": 643,
+     "fp": 700,
+     "fn": 2926,
+     "AP": 9.750156447019506,
+     "AP50": 22.46678168422791
+    }
+   }
+  },
+  "hold10": {
+   "condition": "grouped",
+   "held_out_session": "10",
+   "n_train": 525,
+   "n_test": 627,
+   "models": {
+    "faster_rcnn": {
+     "weed_precision": 0.3553951062976334,
+     "weed_recall": 0.4732905982905983,
+     "weed_f1": 0.4059564719358534,
+     "tp": 1772,
+     "fp": 3214,
+     "fn": 1972,
+     "AP": 24.334961609331778,
+     "AP50": 47.63866604289891
+    },
+    "retinanet": {
+     "weed_precision": 0.3134355604235122,
+     "weed_recall": 0.45860042735042733,
+     "weed_f1": 0.37237041856430275,
+     "tp": 1717,
+     "fp": 3761,
+     "fn": 2027,
+     "AP": 25.092432662716202,
+     "AP50": 48.27922465031252
+    },
+    "yolov10": {
+     "weed_precision": 0.48344370860927155,
+     "weed_recall": 0.3314636752136752,
+     "weed_f1": 0.3932815718586595,
+     "tp": 1241,
+     "fp": 1326,
+     "fn": 2503,
+     "AP": 21.463181815561725,
+     "AP50": 41.449607195682745
+    }
+   }
+  },
+  "hold13": {
+   "condition": "grouped",
+   "held_out_session": "13",
+   "n_train": 891,
+   "n_test": 220,
+   "models": {
+    "faster_rcnn": {
+     "weed_precision": 0.40201567749160133,
+     "weed_recall": 0.19436924742826206,
+     "weed_f1": 0.262043795620438,
+     "tp": 359,
+     "fp": 534,
+     "fn": 1488,
+     "AP": 16.298123634881726,
+     "AP50": 35.916604993954095
+    },
+    "retinanet": {
+     "weed_precision": 0.3479504289799809,
+     "weed_recall": 0.19761775852734165,
+     "weed_f1": 0.25207182320441984,
+     "tp": 365,
+     "fp": 684,
+     "fn": 1482,
+     "AP": 17.56479369284482,
+     "AP50": 38.64972870706714
+    },
+    "yolov10": {
+     "weed_precision": 0.5330073349633252,
+     "weed_recall": 0.11802923659989172,
+     "weed_f1": 0.19326241134751773,
+     "tp": 218,
+     "fp": 191,
+     "fn": 1629,
+     "AP": 16.03032735399285,
+     "AP50": 31.43351138002069
+    }
+   }
+  }
+ },
+ "grouped_minus_control": {
+  "09": {
+   "faster_rcnn": {
+    "weed_recall": -0.21208736854005464,
+    "weed_precision": -0.021987680750648886,
+    "weed_f1": -0.15281859414561288,
+    "AP50": -24.405658495824824
+   },
+   "retinanet": {
+    "weed_recall": -0.2181679908727034,
+    "weed_precision": -0.005157937124667444,
+    "weed_f1": -0.14600057994369564,
+    "AP50": -23.280161838697495
+   },
+   "yolov10": {
+    "weed_recall": -0.12528790584410418,
+    "weed_precision": -0.07662376196525639,
+    "weed_f1": -0.13233137654961757,
+    "AP50": -20.792339561379833
+   }
+  },
+  "10": {
+   "faster_rcnn": {
+    "weed_recall": 0.06351154755410071,
+    "weed_precision": -0.107191498783198,
+    "weed_f1": -0.028628036634335385,
+    "AP50": 1.9820460972258829
+   },
+   "retinanet": {
+    "weed_recall": 0.04104723586106562,
+    "weed_precision": -0.08944639772887625,
+    "weed_f1": -0.03771597886386685,
+    "AP50": 0.24483380907442864
+   },
+   "yolov10": {
+    "weed_recall": 0.06161915802873247,
+    "weed_precision": -0.06522517658207616,
+    "weed_f1": 0.031515252604682464,
+    "AP50": 2.1866142628203136
+   }
+  },
+  "13": {
+   "faster_rcnn": {
+    "weed_recall": -0.2343711428733346,
+    "weed_precision": -0.074958006718925,
+    "weed_f1": -0.18952892315875847,
+    "AP50": -11.225340259101309
+   },
+   "retinanet": {
+    "weed_recall": -0.2275744354407246,
+    "weed_precision": -0.08518210114050101,
+    "weed_f1": -0.17705381093464312,
+    "AP50": -9.978086184645562
+   },
+   "yolov10": {
+    "weed_recall": -0.19953433525108405,
+    "weed_precision": -0.021172231600142255,
+    "weed_f1": -0.21049698714872292,
+    "AP50": -12.515000139686208
+   }
+  }
+ },
+ "mean_grouped_minus_control": {
+  "faster_rcnn": {
+   "weed_recall": -0.12764898795309618,
+   "weed_precision": -0.06804572875092396,
+   "weed_f1": -0.12365851797956891,
+   "AP50": -11.21631755256675
+  },
+  "retinanet": {
+   "weed_recall": -0.1348983968174541,
+   "weed_precision": -0.0599288119980149,
+   "weed_f1": -0.12025678991406853,
+   "AP50": -11.00447140475621
+  },
+  "yolov10": {
+   "weed_recall": -0.08773436102215193,
+   "weed_precision": -0.05434039004915827,
+   "weed_f1": -0.10377103703121933,
+   "AP50": -10.37357514608191
+  }
+ },
+ "n_pairs": {
+  "faster_rcnn": 3,
+  "retinanet": 3,
+  "yolov10": 3
+ },
+ "excluded": {},
+ "clipped_models": [
+  "retinanet"
+ ],
+ "recipe_note": "RetinaNet was trained with gradient-norm clipping in all six folds of this experiment, because without it the focal-loss objective diverged as the learning rate reached its full value on the smaller fold partitions; clipping was applied to both members of every pair, so the difference within a pair is unaffected, but the absolute values for RetinaNet are not directly comparable with those of the other architectures here."
+}
