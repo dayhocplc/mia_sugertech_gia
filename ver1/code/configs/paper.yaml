@@ -1,0 +1,85 @@
+# Cấu hình duy nhất cho bài báo RAE:
+#   "Computer vision-based weed detection in sugarcane cultivation:
+#    A comparative evaluation of deep learning object detection models"
+#
+# Mọi con số ở đây khớp Bảng 1 của bản thảo. Sửa ở đây, không sửa trong code.
+
+dataset:
+  # Hai bản xuất Roboflow của cùng bộ ảnh Tây Ninh (Tân Hưng, Châu Thành).
+  bbox_root:    "TayNinh/Picture and Video/Dataset_Bounding_Box"   # COCO bbox
+  polygon_root: "TayNinh/Picture and Video/Dataset_Polygon"        # COCO segmentation
+  # Ảnh GỐC chưa qua Roboflow (còn EXIF, còn tỷ lệ 4:3). Dùng để xác thực ngày
+  # chụp và để đo chồng lấn hình học giữa các khung liền kề thời gian.
+  raw_picture_root: "/home/thanhtran/Gia-mia/mia/TayNinh/Picture and Video/Dataset_All/Picture"
+  # Roboflow xuất id 0 = lớp gộp giữ chỗ, 1 = sugarcane, 2 = weed.
+  # Toàn bộ pipeline dùng thứ tự đã ánh xạ lại: 0 = sugarcane, 1 = weed.
+  classes: ["sugarcane", "weed"]
+  roboflow_category_map: {1: 0, 2: 1}
+
+train:
+  epochs: 50
+  batch_size: 16              # batch hiệu dụng — Bảng 1
+  optimizer: "AdamW"
+  lr: 0.001
+  lr_schedule: "cosine"
+  weight_decay: 0.0001
+  warmup_iters: 250
+  seed: 0
+
+models:
+  faster_rcnn:
+    framework: detectron2
+    annotation: bbox
+    config: "COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml"
+    imgsz: 1024
+    task: detect
+  mask_rcnn:
+    framework: detectron2
+    annotation: polygon
+    config: "COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml"
+    imgsz: 1024
+    task: segment
+  retinanet:
+    framework: detectron2
+    annotation: bbox
+    config: "COCO-Detection/retinanet_R_50_FPN_3x.yaml"
+    imgsz: 1024
+    task: detect
+  yolov8_seg:
+    framework: ultralytics
+    annotation: polygon
+    config: "yolov8s-seg.pt"
+    imgsz: 640
+    task: segment
+  yolov10:
+    framework: ultralytics
+    annotation: bbox
+    config: "yolov10s.pt"
+    imgsz: 640
+    task: detect
+
+# Phạm vi bài báo. Năm mô hình được huấn luyện trên hai quy ước nhãn khác nhau
+# (hộp và đa giác) với hai tập test gần như rời nhau, nên không xếp hạng chung
+# được. Phần chính của bài chỉ so ba mô hình cùng quy ước hộp — chúng dùng chung
+# một tập test. Hai mô hình còn lại báo cáo riêng, ghi rõ là không so sánh.
+scope:
+  primary: [faster_rcnn, retinanet, yolov10]     # cùng nhãn hộp, cùng tập test
+  secondary: [mask_rcnn, yolov8_seg]             # nhãn đa giác, tập test riêng
+
+# Yêu cầu thông lượng, suy từ nông học và đặt TRƯỚC khi nhìn kết quả.
+# Máy phun chạy `sprayer_speed_kmh`; muốn hai khung hình liên tiếp lệch không quá
+# `max_frame_advance_m` thì cần tối thiểu bao nhiêu FPS trên THIẾT BỊ TRIỂN KHAI.
+# `embedded_slowdown` là hệ số quy đổi giả định từ GPU máy trạm sang thiết bị
+# biên — một giả định dựa trên tài liệu, không phải số đo của nhóm.
+deployment:
+  sprayer_speed_kmh: 6.0
+  max_frame_advance_m: 0.30
+  embedded_slowdown: [5, 10]
+
+# Giao thức đánh giá — sao chép đúng cách khoá luận đã làm bằng
+# supervision.ConfusionMatrix.benchmark (mặc định của thư viện).
+eval:
+  conf_threshold: 0.30
+  iou_threshold: 0.50
+  # Bảng 2/3 lọc bỏ hàng+cột background trước khi tính TP/FP/FN (theo khoá luận).
+  drop_background: true
